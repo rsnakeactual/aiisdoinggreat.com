@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "39b7b9279b1e7436ba9e831b3eaa6389f13ad6b3fe807facb01c97d84789b809",
+      "title": "Builder.ai goes Bankrupt",
+      "excerpt": "Builder.ai went bankrupt: <a href=\"https://x.com/jg_nuke/status/1928823190618317298?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/jg_nuke/status/1928823190618317298?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a> when people figured out that instead of AI it was actually 700 employees: <a href=\"https://x.com/kahlissee/status/1930220892849619335?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/kahlissee/status/1930220892849619335?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+      "filename": "Builder.ai goes Bankrupt.md",
+      "slug": "builderai-goes-bankrupt-20250730",
+      "created_at": "2025-07-30T12:20:18.813083"
+    },
+    {
       "id": "4a9eab24aa355f7325ccad184e9bbe7cd8b5971928fd6e3c2f9a874b8ea98dba",
       "title": "AI Steady at 45 Percent Vulnerable",
       "excerpt": "Chris Wysopal shows that while amount of functioning code is way up the number of vulnerabilities per line is the same. So that means more vulnerabilities can ship since the code can compile and run. Excellent.\n\n<a href=\"https://x.com/weldpond/status/1950533144341332341?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/weldpond/status/1950533144341332341?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>",
@@ -27,11 +35,11 @@
   ],
   "page": 2,
   "total_pages": 2,
-  "total_posts": 13,
+  "total_posts": 14,
   "posts_per_page": 10,
   "has_next": false,
   "has_prev": true,
   "next_page": null,
   "prev_page": 1,
-  "last_updated": "2025-07-30T15:33:01.543538"
+  "last_updated": "2025-07-30T15:58:49.890985"
 }
