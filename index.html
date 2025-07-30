@@ -196,7 +196,7 @@
         
         .post-content {
             padding: 30px 35px;
-            color: #e0e0e0;
+            color: #ffffff;
             line-height: 1.8;
             font-size: 1.1rem;
         }
@@ -305,6 +305,7 @@
             color: #ffffff;
             margin-bottom: 20px;
             line-height: 1.2;
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
         }
         
         .markdown-content {
@@ -324,7 +325,7 @@
         
         .markdown-content p {
             margin-bottom: 20px;
-            color: #b0b0b0;
+            color: #000000;
         }
         
         .markdown-content a {
@@ -409,6 +410,148 @@
         
         .loading {
             animation: pulse 1.5s ease-in-out infinite;
+        }
+        
+        .social-sharing {
+            padding: 30px 35px;
+            border-top: 1px solid rgba(0, 255, 255, 0.1);
+            background: rgba(0, 0, 0, 0.3);
+        }
+        
+        .social-sharing h4 {
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .share-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .share-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+        }
+        
+        .share-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+        
+        .share-btn.twitter {
+            color: #1DA1F2;
+            border-color: rgba(29, 161, 242, 0.3);
+        }
+        
+        .share-btn.twitter:hover {
+            background: rgba(29, 161, 242, 0.1);
+            border-color: rgba(29, 161, 242, 0.5);
+        }
+        
+        .share-btn.linkedin {
+            color: #0077B5;
+            border-color: rgba(0, 119, 181, 0.3);
+        }
+        
+        .share-btn.linkedin:hover {
+            background: rgba(0, 119, 181, 0.1);
+            border-color: rgba(0, 119, 181, 0.5);
+        }
+        
+        .share-btn.facebook {
+            color: #4267B2;
+            border-color: rgba(66, 103, 178, 0.3);
+        }
+        
+        .share-btn.facebook:hover {
+            background: rgba(66, 103, 178, 0.1);
+            border-color: rgba(66, 103, 178, 0.5);
+        }
+        
+        .share-btn.copy {
+            color: #00ffff;
+            border-color: rgba(0, 255, 255, 0.3);
+        }
+        
+        .share-btn.copy:hover {
+            background: rgba(0, 255, 255, 0.1);
+            border-color: rgba(0, 255, 255, 0.5);
+        }
+        
+        .share-btn svg {
+            flex-shrink: 0;
+        }
+        
+        /* Toaster notification */
+        .toaster {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            border-radius: 12px;
+            padding: 15px 20px;
+            color: #00ffff;
+            font-weight: 500;
+            z-index: 1000;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .toaster.show {
+            transform: translateX(0);
+        }
+        
+        .toaster-content {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .toaster svg {
+            flex-shrink: 0;
+        }
+        
+        /* Responsive design for share buttons */
+        @media (max-width: 768px) {
+            .share-buttons {
+                gap: 10px;
+            }
+            
+            .share-btn {
+                padding: 10px 15px;
+                font-size: 0.9rem;
+            }
+            
+            .toaster {
+                top: 10px;
+                right: 10px;
+                left: 10px;
+                transform: translateY(-100%);
+            }
+            
+            .toaster.show {
+                transform: translateY(0);
+            }
         }
         
         .back-link:hover {
@@ -518,7 +661,7 @@
         }
         
         .single-post {
-            background: white;
+            background: #000000;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             margin-bottom: 30px;
@@ -550,7 +693,7 @@
         </div>
         
         <div id="back-link" style="display: none;">
-            <a href="#" onclick="goHome()" class="back-link">← Back to All Posts</a>
+            <a href="#" onclick="goHome()" class="back-link">Back to All Posts</a>
         </div>
         
         <div id="stats" class="stats" style="display: none;">
@@ -586,25 +729,21 @@
         let currentView = 'list'; // 'list' or 'single'
         let currentPostId = null;
 
-        // Parse URL parameters and hash
+        // Parse URL parameters
         function getUrlParameter(name) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(name);
         }
 
-        function getUrlHash() {
-            return window.location.hash.substring(1);
-        }
-
         // Update URL without reloading
-        function updateURL(page, postId = null) {
+        function updateURL(page, postSlug = null) {
             const url = new URL(window.location);
-            if (postId) {
-                url.hash = postId;
+            if (postSlug) {
+                url.searchParams.set('post', postSlug);
                 url.searchParams.delete('page');
             } else {
                 url.searchParams.set('page', page);
-                url.hash = '';
+                url.searchParams.delete('post');
             }
             window.history.pushState({}, '', url);
         }
@@ -633,10 +772,16 @@
                 totalPages = data.total_pages;
                 postsPerPage = data.posts_per_page;
                 
+                // Create slug to ID mapping
+                window.slugToId = {};
+                allPosts.forEach(post => {
+                    window.slugToId[post.slug] = post.id;
+                });
+                
                 // Check if we're viewing a single post
-                const hash = getUrlHash();
-                if (hash) {
-                    await loadSinglePost(hash);
+                const urlPost = getUrlParameter('post');
+                if (urlPost) {
+                    await loadSinglePost(urlPost);
                 } else {
                     displayPosts();
                 }
@@ -647,8 +792,27 @@
             }
         }
 
-        async function loadSinglePost(postId) {
+        async function loadSinglePost(postIdOrSlug) {
             try {
+                // Check if it's a slug and convert to ID if needed
+                let postId = postIdOrSlug;
+                if (window.slugToId && window.slugToId[postIdOrSlug]) {
+                    postId = window.slugToId[postIdOrSlug];
+                }
+                
+                // If we still don't have a valid ID, try to find it in all posts
+                if (!postId || postId === postIdOrSlug) {
+                    // Load all posts to find the one with this slug
+                    const allPostsResponse = await fetch('db/index.json');
+                    if (allPostsResponse.ok) {
+                        const allPostsData = await allPostsResponse.json();
+                        const foundPost = allPostsData.posts.find(p => p.slug === postIdOrSlug);
+                        if (foundPost) {
+                            postId = foundPost.id;
+                        }
+                    }
+                }
+                
                 const response = await fetch(`db/post_${postId}.json`);
                 if (!response.ok) {
                     throw new Error('Post not found');
@@ -670,15 +834,42 @@
                 container.innerHTML = `
                     <div class="single-post">
                         <div class="post-header">
-                            <h1 class="post-title">${escapeHtml(post.title)}</h1>
+                            <h1 class="post-title">${post.title}</h1>
                             <div class="post-meta">
                                 <span>📅 ${formatDate(post.created_at)}</span>
-                                <span> • </span>
-                                <span>📄 ${post.filename}</span>
                             </div>
                         </div>
                         <div class="post-content markdown-content">
                             ${renderMarkdown(post.content)}
+                        </div>
+                        <div class="social-sharing">
+                            <h4>Share this post:</h4>
+                            <div class="share-buttons">
+                                <a href="https://x.com/intent/tweet?text=${encodeURIComponent('AI IS DOING GREAT - Evidence of how rock solid AI/LLMs are and continue to be')}&url=${encodeURIComponent(window.location.origin + window.location.pathname + '?post=' + post.slug)}" target="_blank" class="share-btn twitter" style="display: flex !important; visibility: visible !important;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                                    </svg>
+                                    X.com
+                                </a>
+                                <a href="#" data-href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.origin + window.location.pathname + '?post=' + post.slug)}" onclick="openShareLink(this); return false;" target="_blank" class="share-btn linkedin" style="display: flex !important; visibility: visible !important;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                    LinkedIn
+                                </a>
+                                <a href="#" data-href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.origin + window.location.pathname + '?post=' + post.slug)}" onclick="openShareLink(this); return false;" target="_blank" class="share-btn facebook" style="display: flex !important; visibility: visible !important;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                    </svg>
+                                    Facebook
+                                </a>
+                                <button onclick="copyToClipboard('${window.location.origin + window.location.pathname + '?post=' + post.slug}')" class="share-btn copy" style="display: flex !important; visibility: visible !important;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                                    </svg>
+                                    Copy Link
+                                </button>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -728,15 +919,40 @@
             container.innerHTML = currentPosts.map(post => `
                 <div class="post-card">
                     <div class="post-header">
-                        <h2 class="post-title">
-                            <a href="#${post.id}" onclick="viewPost('${post.id}')">${escapeHtml(post.title)}</a>
+                                                                            <h2 class="post-title">
+                            <a href="?post=${post.slug}" onclick="viewPost('${post.id}')">${post.title}</a>
                         </h2>
                         <div class="post-meta">
                             <span>📅 ${formatDate(post.created_at)}</span>
-                            <span> • </span>
-                            <span>📄 ${post.filename}</span>
                         </div>
-                        <div class="post-excerpt">${post.excerpt}</div>
+                        <div class="post-excerpt">${post.excerpt} </div>
+                        <br><br>
+                        <div class="share-buttons">
+                            <a href="https://x.com/intent/tweet?text=${encodeURIComponent('AI IS DOING GREAT - Evidence of how rock solid AI/LLMs are and continue to be')}&url=${encodeURIComponent(window.location.origin + window.location.pathname + '?post=' + post.slug)}" target="_blank" class="share-btn twitter" style="display: flex !important; visibility: visible !important;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                                </svg>
+                                X.com
+                            </a>
+                            <a href="#" data-href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.origin + window.location.pathname + '?post=' + post.slug)}" onclick="openShareLink(this); return false;" target="_blank" class="share-btn linkedin" style="display: flex !important; visibility: visible !important;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                                LinkedIn
+                            </a>
+                            <a href="#" data-href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.origin + window.location.pathname + '?post=' + post.slug)}" onclick="openShareLink(this); return false;" target="_blank" class="share-btn facebook" style="display: flex !important; visibility: visible !important;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                                Facebook
+                            </a>
+                            <button onclick="copyToClipboard('${window.location.origin + window.location.pathname + '?post=' + post.slug}')" class="share-btn copy" style="display: flex !important; visibility: visible !important;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                                </svg>
+                                Copy Link
+                            </button>
+                        </div>
                     </div>
                 </div>
             `).join('');
@@ -750,8 +966,12 @@
         }
 
         function viewPost(postId) {
-            updateURL(null, postId);
-            loadSinglePost(postId);
+            // Find the post to get its slug
+            const post = allPosts.find(p => p.id === postId);
+            if (post) {
+                updateURL(null, post.slug);
+                loadSinglePost(postId);
+            }
         }
 
         function goHome() {
@@ -884,18 +1104,96 @@
 
         // Handle browser back/forward buttons
         window.addEventListener('popstate', function() {
-            const hash = getUrlHash();
-            if (hash) {
-                loadSinglePost(hash);
+            const urlPost = getUrlParameter('post');
+            if (urlPost) {
+                loadSinglePost(urlPost);
             } else {
                 loadPosts(); // Reload posts to get the correct page
             }
         });
 
+        // Copy to clipboard function
+        function copyToClipboard(text) {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text).then(() => {
+                    // Show success feedback
+                    const copyBtn = event.target.closest('.share-btn.copy');
+                    const originalText = copyBtn.innerHTML;
+                    copyBtn.innerHTML = `
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                        </svg>
+                        Copied!
+                    `;
+                    copyBtn.style.color = '#00ff00';
+                    
+                    // Show toaster notification
+                    showToaster('Link copied to clipboard!');
+                    
+                    setTimeout(() => {
+                        copyBtn.innerHTML = originalText;
+                        copyBtn.style.color = '#00ffff';
+                    }, 2000);
+                });
+            } else {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                showToaster('Link copied to clipboard!');
+            }
+        }
+        
+        // Toaster notification function
+        function showToaster(message) {
+            // Remove existing toaster if any
+            const existingToaster = document.querySelector('.toaster');
+            if (existingToaster) {
+                existingToaster.remove();
+            }
+            
+            // Create toaster
+            const toaster = document.createElement('div');
+            toaster.className = 'toaster';
+            toaster.innerHTML = `
+                <div class="toaster-content">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                    </svg>
+                    <span>${message}</span>
+                </div>
+            `;
+            
+            document.body.appendChild(toaster);
+            
+            // Animate in
+            setTimeout(() => {
+                toaster.classList.add('show');
+            }, 100);
+            
+            // Remove after 3 seconds
+            setTimeout(() => {
+                toaster.classList.remove('show');
+                setTimeout(() => {
+                    if (toaster.parentNode) {
+                        toaster.remove();
+                    }
+                }, 300);
+            }, 3000);
+        }
+        
         // Initialize
         document.addEventListener('DOMContentLoaded', function() {
             loadPosts();
         });
+
+        function openShareLink(el) {
+            const url = el.getAttribute('data-href');
+            window.open(url, '_blank');
+        }
     </script>
 </body>
 </html> 
