@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI IS DOING GREAT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .post-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .post-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        
+        .post-header {
+            padding: 25px 30px 20px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .post-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+        
+        .post-title a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .post-title a:hover {
+            color: #667eea;
+        }
+        
+        .post-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .post-excerpt {
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+        
+        .post-content {
+            padding: 25px 30px;
+            color: #444;
+            line-height: 1.7;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            background: rgba(255,255,255,0.3);
+            color: white;
+            transform: translateX(-5px);
+        }
+        
+        .pagination-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .pagination {
+            display: inline-flex;
+            gap: 10px;
+        }
+        
+        .page-btn {
+            padding: 10px 15px;
+            border: none;
+            background: white;
+            color: #333;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .page-btn:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .page-btn.active {
+            background: #667eea;
+            color: white;
+        }
+        
+        .page-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .loading {
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            padding: 40px;
+        }
+        
+        .error {
+            background: #ff6b6b;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .stats {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .markdown-content {
+            font-family: 'Georgia', serif;
+        }
+        
+        .markdown-content h1, .markdown-content h2, .markdown-content h3 {
+            color: #333;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .markdown-content p {
+            margin-bottom: 15px;
+        }
+        
+        .markdown-content code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .markdown-content pre {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        .markdown-content blockquote {
+            border-left: 4px solid #667eea;
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .single-post {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        
+        .single-post .post-header {
+            padding: 30px 30px 25px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .single-post .post-title {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .single-post .post-content {
+            padding: 30px;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI IS DOING GREAT</h1>
+            <p>Proving how incredibly rock solid AI has been and continues to be.</p>
+        </div>
+        
+        <div id="back-link" style="display: none;">
+            <a href="#" onclick="goHome()" class="back-link">← Back to All Posts</a>
+        </div>
+        
+        <div id="stats" class="stats" style="display: none;">
+            <span id="total-posts">0</span> total posts • 
+            Showing <span id="current-range">0-0</span> of <span id="total-posts-display">0</span>
+        </div>
+        
+        <div id="loading" class="loading">
+            Loading posts...
+        </div>
+        
+        <div id="error" class="error" style="display: none;">
+            Error loading posts. Please try again.
+        </div>
+        
+        <div id="posts-container"></div>
+        
+        <div id="pagination" class="pagination-container" style="display: none;">
+            <div class="pagination">
+                <button id="prev-btn" class="page-btn" onclick="previousPage()">← Previous</button>
+                <div id="page-numbers"></div>
+                <button id="next-btn" class="page-btn" onclick="nextPage()">Next →</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let allPosts = [];
+        let currentPage = 1;
+        let postsPerPage = 10;
+        let totalPosts = 0;
+        let currentView = 'list'; // 'list' or 'single'
+        let currentPostId = null;
+
+        // Parse URL parameters and hash
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        function getUrlHash() {
+            return window.location.hash.substring(1);
+        }
+
+        // Update URL without reloading
+        function updateURL(page, postId = null) {
+            const url = new URL(window.location);
+            if (postId) {
+                url.hash = postId;
+                url.searchParams.delete('page');
+            } else {
+                url.searchParams.set('page', page);
+                url.hash = '';
+            }
+            window.history.pushState({}, '', url);
+        }
+
+        // Load posts from index file
+        async function loadPosts() {
+            try {
+                // Get current page from URL or default to 1
+                const urlPage = getUrlParameter('page');
+                currentPage = urlPage ? parseInt(urlPage) : 1;
+                
+                // Determine which JSON file to load
+                let jsonFile = 'db/index.json';
+                if (currentPage > 1) {
+                    jsonFile = `db/index_${currentPage}.json`;
+                }
+                
+                const response = await fetch(jsonFile);
+                if (!response.ok) {
+                    throw new Error('Failed to load index');
+                }
+
+                const data = await response.json();
+                allPosts = data.posts;
+                totalPosts = data.total_posts;
+                totalPages = data.total_pages;
+                postsPerPage = data.posts_per_page;
+                
+                // Check if we're viewing a single post
+                const hash = getUrlHash();
+                if (hash) {
+                    await loadSinglePost(hash);
+                } else {
+                    displayPosts();
+                }
+            } catch (e) {
+                console.error('Error loading posts:', e);
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+
+        async function loadSinglePost(postId) {
+            try {
+                const response = await fetch(`db/post_${postId}.json`);
+                if (!response.ok) {
+                    throw new Error('Post not found');
+                }
+
+                const data = await response.json();
+                const post = data.post;
+                
+                currentView = 'single';
+                currentPostId = postId;
+                
+                document.getElementById('back-link').style.display = 'block';
+                document.getElementById('stats').style.display = 'none';
+                document.getElementById('pagination').style.display = 'none';
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'none';
+                
+                const container = document.getElementById('posts-container');
+                container.innerHTML = `
+                    <div class="single-post">
+                        <div class="post-header">
+                            <h1 class="post-title">${escapeHtml(post.title)}</h1>
+                            <div class="post-meta">
+                                <span>📅 ${formatDate(post.created_at)}</span>
+                                <span> • </span>
+                                <span>📄 ${post.filename}</span>
+                            </div>
+                        </div>
+                        <div class="post-content markdown-content">
+                            ${renderMarkdown(post.content)}
+                        </div>
+                    </div>
+                `;
+                
+                // Update page title
+                document.title = `${post.title} - AI IS DOING GREAT`;
+                
+            } catch (e) {
+                console.error('Error loading single post:', e);
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+
+        function displayPosts() {
+            const container = document.getElementById('posts-container');
+            const loading = document.getElementById('loading');
+            const error = document.getElementById('error');
+            const pagination = document.getElementById('pagination');
+            const stats = document.getElementById('stats');
+            const backLink = document.getElementById('back-link');
+
+            loading.style.display = 'none';
+            error.style.display = 'none';
+            backLink.style.display = 'none';
+
+            if (allPosts.length === 0) {
+                container.innerHTML = '<div class="text-center text-white"><h3>No posts found</h3><p>Check back soon for new content!</p></div>';
+                return;
+            }
+
+            currentView = 'list';
+            currentPostId = null;
+
+            // Calculate display range
+            const startIndex = (currentPage - 1) * postsPerPage;
+            const endIndex = startIndex + allPosts.length;
+            const currentPosts = allPosts; // Use all posts from the loaded page
+
+            // Update stats
+            document.getElementById('total-posts').textContent = totalPosts;
+            document.getElementById('current-range').textContent = `${startIndex + 1}-${Math.min(endIndex, totalPosts)}`;
+            document.getElementById('total-posts-display').textContent = totalPosts;
+            stats.style.display = 'block';
+
+            // Display posts
+            container.innerHTML = currentPosts.map(post => `
+                <div class="post-card">
+                    <div class="post-header">
+                        <h2 class="post-title">
+                            <a href="#${post.id}" onclick="viewPost('${post.id}')">${escapeHtml(post.title)}</a>
+                        </h2>
+                        <div class="post-meta">
+                            <span>📅 ${formatDate(post.created_at)}</span>
+                            <span> • </span>
+                            <span>📄 ${post.filename}</span>
+                        </div>
+                        <div class="post-excerpt">${post.excerpt}</div>
+                    </div>
+                </div>
+            `).join('');
+
+            // Setup pagination
+            setupPagination();
+            pagination.style.display = 'block';
+            
+            // Update page title
+            document.title = 'AI IS DOING GREAT';
+        }
+
+        function viewPost(postId) {
+            updateURL(null, postId);
+            loadSinglePost(postId);
+        }
+
+        function goHome() {
+            updateURL(1);
+            loadPosts(); // Reload posts for the home page
+        }
+
+        function setupPagination() {
+            const totalPages = Math.ceil(totalPosts / postsPerPage);
+            const pageNumbers = document.getElementById('page-numbers');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+
+            // Update button states
+            prevBtn.disabled = currentPage <= 1;
+            nextBtn.disabled = currentPage >= totalPages;
+
+            // Create page number buttons
+            let pageButtons = '';
+            const maxVisiblePages = 5;
+            let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+            let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+            if (endPage - startPage + 1 < maxVisiblePages) {
+                startPage = Math.max(1, endPage - maxVisiblePages + 1);
+            }
+
+            for (let i = startPage; i <= endPage; i++) {
+                pageButtons += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+            }
+
+            pageNumbers.innerHTML = pageButtons;
+        }
+
+        function goToPage(page) {
+            currentPage = page;
+            updateURL(page);
+            loadPosts(); // Reload posts for the new page
+            window.scrollTo(0, 0);
+        }
+
+        function previousPage() {
+            if (currentPage > 1) {
+                goToPage(currentPage - 1);
+            }
+        }
+
+        function nextPage() {
+            const totalPages = Math.ceil(totalPosts / postsPerPage);
+            if (currentPage < totalPages) {
+                goToPage(currentPage + 1);
+            }
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        }
+
+        function renderMarkdown(content) {
+            // First, we need to handle already-processed HTML content
+            // The Python script has already converted some links to HTML
+            // So we need to be careful not to escape them again
+            
+            // Split content into HTML and non-HTML parts
+            let html = content;
+            
+            // Temporarily replace already-processed HTML links to protect them
+            const htmlLinkPattern = /<a href="([^"]+)" target="_blank" rel="noopener noreferrer">([^<]+)<\/a>/g;
+            const protectedLinks = [];
+            let linkIndex = 0;
+            
+            html = html.replace(htmlLinkPattern, function(match, url, text) {
+                const placeholder = `__PROTECTED_LINK_${linkIndex}__`;
+                protectedLinks.push({ placeholder, match });
+                linkIndex++;
+                return placeholder;
+            });
+            
+            // Now escape the remaining content
+            html = escapeHtml(html);
+            
+            // Restore the protected HTML links
+            protectedLinks.forEach(({ placeholder, match }) => {
+                html = html.replace(placeholder, match);
+            });
+            
+            // Headers
+            html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+            html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
+            html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
+            
+            // Bold and italic
+            html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+            
+            // Code blocks
+            html = html.replace(/```([\s\S]*?)```/g, '<pre><code>$1</code></pre>');
+            html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+            
+            // Images (already processed by Python script)
+            html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" class="img-fluid" style="max-width: 100%; height: auto; border-radius: 8px; margin: 15px 0;">');
+            
+            // Links - handle both processed HTML links and remaining markdown links
+            // First, don't process anything that's already an HTML link
+            // Then process any remaining markdown links
+            html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, function(match, text, url) {
+                if (url.startsWith('http://') || url.startsWith('https://')) {
+                    return `<a href="${url}" target="_blank" rel="noopener noreferrer">${text}</a>`;
+                } else {
+                    return `<a href="${url}">${text}</a>`;
+                }
+            });
+            
+            // Line breaks
+            html = html.replace(/\n/g, '<br>');
+            
+            return html;
+        }
+
+        // Handle browser back/forward buttons
+        window.addEventListener('popstate', function() {
+            const hash = getUrlHash();
+            if (hash) {
+                loadSinglePost(hash);
+            } else {
+                loadPosts(); // Reload posts to get the correct page
+            }
+        });
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            loadPosts();
+        });
+    </script>
+</body>
+</html> 

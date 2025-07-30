@@ -1,0 +1,93 @@
+{
+  "posts": [
+    {
+      "id": "c74fd62672acc3905607ee89b6ed3ce2d439b59451408304e029b11e34551c38",
+      "title": "AI May be Responsible For More Layoffs than Reported",
+      "excerpt": "In recent layoffs, AI’s role may be bigger than companies are letting on. Oh joy, underrepresenting the threat to our economy: <a href=\"https://www.cnbc.com/2025/07/20/in-job-losses-ais-role-may-be-bigger-than-companies-say.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.cnbc.com/2025/07/20/in-job-losses-ais-role-may-be-bigger-than-companies-say.html</a>",
+      "filename": "AI May be Responsible For More Layoffs than Reported.md",
+      "slug": "ai-may-be-responsible-for-more-layoffs-than-reported-20250730",
+      "created_at": "2025-07-30T12:20:18.813870"
+    },
+    {
+      "id": "ed22b0a1bbc84905166e50fdc6cc9c27a9d5cdbf6d80c5e2a7ad234c91319f2a",
+      "title": "Conferences Overwhelmed with AI Submissions",
+      "excerpt": "Dead Internet theory moves to conferences, where they used to get maybe hundreds or a thousand, they are now getting 10k submissions: <a href=\"https://x.com/richardcsuwandi/status/1946241547005243631?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/richardcsuwandi/status/1946241547005243631?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+      "filename": "Conferences Overwhelmed with AI Submissions.md",
+      "slug": "conferences-overwhelmed-with-ai-submissions-20250730",
+      "created_at": "2025-07-30T12:20:18.813725"
+    },
+    {
+      "id": "643648c23efe0525c0a4d41c5e1ba82ab69593e031f3454fc3101784f797d224",
+      "title": "Amazon Couldn't Get Reliable Power So Left Ireland",
+      "excerpt": "Power issues meant Amazon is moving out of Ireland. It turned out Ireland couldn't keep the power stable enough for AI: <a href=\"https://x.com/marionawfal/status/1948971544128217159?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/marionawfal/status/1948971544128217159?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+      "filename": "Amazon Couldn't Get Reliable Power So Left Ireland.md",
+      "slug": "amazon-couldnt-get-reliable-power-so-left-ireland-20250730",
+      "created_at": "2025-07-30T12:20:18.813650"
+    },
+    {
+      "id": "027a5e27bd2f74ef33f598e09bf0c7bf03e8d93879f31a0d18a5c67c7e5f64be",
+      "title": "Judge Drafts Opinion with AI but it Hallucinates",
+      "excerpt": "The Federal judge was forced to take back his opinion once it was revealed that it referenced fake court cases and added fake quotes: <a href=\"https://x.com/sanayshajith/status/1949168651052966292?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/sanayshajith/status/1949168651052966292?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+      "filename": "Judge Drafts Opinion with AI but it Hallucinates.md",
+      "slug": "judge-drafts-opinion-with-ai-but-it-hallucinates-20250730",
+      "created_at": "2025-07-30T12:20:18.813570"
+    },
+    {
+      "id": "2a9d1508580ca5f611cd46e43127c13f7f0dfa3974aa54a4912d2a70cbff069d",
+      "title": "AI Farming Human Engagement",
+      "excerpt": "In this dystopian nightmare it is becoming clear that AI is subtly tuning towards human engagement and quantity of dopamine produced. Gross: <a href=\"https://x.com/vnovak_404/status/1949228072018051365?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/vnovak_404/status/1949228072018051365?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+      "filename": "AI Farming Human Engagement.md",
+      "slug": "ai-farming-human-engagement-20250730",
+      "created_at": "2025-07-30T12:20:18.813495"
+    },
+    {
+      "id": "2311959cf9267a99dafc2df4c9027350a9df3a7b2f58e6bddd3994eb6b8829ad",
+      "title": "Anthropic Walks Back Unlimited Plan",
+      "excerpt": "Apparently 5% of the users who actually use the Pro or Max subscription have been racking up far more in costs than the $200 they paid. So expect some pissed off Claude Code devs who will suddenly be throttled. What will it break for them when their coding platform is no longer functioning as they expect? Guess we’ll find out soon enough. One of the fun aspects of relying on a company to have standard and consistent offerings.\n\n<a href=\"https://www.tomsguide.com/ai/anthropic-is-putting-a-limit-on-a-claude-ai-feature-because-people-are-using-it-24-7\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.tomsguide.com/ai/anthropic-is-putting-a-limit-on-a-claude-ai-feature-because-people-are-using-it-24-7</a>",
+      "filename": "Anthropic Walks Back Unlimited Plan.md",
+      "slug": "anthropic-walks-back-unlimited-plan-20250730",
+      "created_at": "2025-07-30T12:20:18.813418"
+    },
+    {
+      "id": "4440bc49ef1bb379eacca98b5e6c8b7bc3479730606753f58d52e81ec9b531c6",
+      "title": "Comet Browser Failing at Simplest AI Use Cases",
+      "excerpt": "Comet browser can’t do the most basic things: <a href=\"https://x.com/blaketoliver/status/1947705623388557556?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/blaketoliver/status/1947705623388557556?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+      "filename": "Comet Browser Failing at Simplest AI Use Cases.md",
+      "slug": "comet-browser-failing-at-simplest-ai-use-cases-20250730",
+      "created_at": "2025-07-30T12:20:18.813319"
+    },
+    {
+      "id": "8394795f19ebb12efb25731b43ef76cb81de2177f43f0820c76df04a4a633993",
+      "title": "Replit Deletes Customer Database",
+      "excerpt": "Replit goes rogue during a code freeze and shutdown and deletes the entire database for <a href=\"http://saastr.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">http://saastr.ai/</a> even after it was told not to: <a href=\"https://x.com/jasonlk/status/1946069562723897802?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/jasonlk/status/1946069562723897802?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a> and it lied about it once confronted: <a href=\"https://x.com/jasonlk/status/1946070323285385688?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/jasonlk/status/1946070323285385688?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n\n",
+      "filename": "Replit Deletes Customer Database.md",
+      "slug": "replit-deletes-customer-database-20250730",
+      "created_at": "2025-07-30T12:20:18.813242"
+    },
+    {
+      "id": "62e0c742ee52a1d54a80acec4713554a04f23389974666bb536dae985b723e26",
+      "title": "Newsweek Uses ChatGPT Instead of Human Sources",
+      "excerpt": "\n\"Newsweek asked ChatGPT...\" -- absolutely peak journalism, here, folks <a href=\"https://x.com/alanrmacleod/status/1947227763670200420?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/alanrmacleod/status/1947227763670200420?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>",
+      "filename": "Newsweek Uses ChatGPT Instead of Human Sources.md",
+      "slug": "newsweek-uses-chatgpt-instead-of-human-sources-20250730",
+      "created_at": "2025-07-30T12:20:18.813161"
+    },
+    {
+      "id": "39b7b9279b1e7436ba9e831b3eaa6389f13ad6b3fe807facb01c97d84789b809",
+      "title": "Builder.ai goes Bankrupt",
+      "excerpt": "Builder.ai went bankrupt: <a href=\"https://x.com/jg_nuke/status/1928823190618317298?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/jg_nuke/status/1928823190618317298?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a> when people figured out that instead of AI it was actually 700 employees: <a href=\"https://x.com/kahlissee/status/1930220892849619335?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/kahlissee/status/1930220892849619335?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+      "filename": "Builder.ai goes Bankrupt.md",
+      "slug": "builderai-goes-bankrupt-20250730",
+      "created_at": "2025-07-30T12:20:18.813083"
+    }
+  ],
+  "page": 1,
+  "total_pages": 2,
+  "total_posts": 13,
+  "posts_per_page": 10,
+  "has_next": true,
+  "has_prev": false,
+  "next_page": 2,
+  "prev_page": null,
+  "last_updated": "2025-07-30T12:20:18.816233"
+}
