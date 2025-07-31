@@ -194,6 +194,11 @@ class MarkdownProcessor:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
             
+            # Filter out lines that start with "#push"
+            lines = content.split('\n')
+            filtered_lines = [line for line in lines if not line.strip().startswith('#push')]
+            content = '\n'.join(filtered_lines)
+            
             # Calculate file hash for duplicate detection
             file_hash = self.calculate_file_hash(file_path)
             
