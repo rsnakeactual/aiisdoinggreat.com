@@ -772,12 +772,6 @@
                 totalPages = data.total_pages;
                 postsPerPage = data.posts_per_page;
                 
-                // Create slug to ID mapping
-                window.slugToId = {};
-                allPosts.forEach(post => {
-                    window.slugToId[post.slug] = post.id;
-                });
-                
                 // Check if we're viewing a single post
                 const urlPost = getUrlParameter('post');
                 if (urlPost) {
@@ -794,26 +788,8 @@
 
         async function loadSinglePost(postIdOrSlug) {
             try {
-                // Check if it's a slug and convert to ID if needed
-                let postId = postIdOrSlug;
-                if (window.slugToId && window.slugToId[postIdOrSlug]) {
-                    postId = window.slugToId[postIdOrSlug];
-                }
-                
-                // If we still don't have a valid ID, try to find it in all posts
-                if (!postId || postId === postIdOrSlug) {
-                    // Load all posts to find the one with this slug
-                    const allPostsResponse = await fetch('db/index.json');
-                    if (allPostsResponse.ok) {
-                        const allPostsData = await allPostsResponse.json();
-                        const foundPost = allPostsData.posts.find(p => p.slug === postIdOrSlug);
-                        if (foundPost) {
-                            postId = foundPost.id;
-                        }
-                    }
-                }
-                
-                const response = await fetch(`db/post_${postId}.json`);
+                // Use the slug directly to fetch the post file
+                const response = await fetch(`db/post_${postIdOrSlug}.json`);
                 if (!response.ok) {
                     throw new Error('Post not found');
                 }
@@ -822,7 +798,7 @@
                 const post = data.post;
                 
                 currentView = 'single';
-                currentPostId = postId;
+                currentPostId = post.id; // Use the actual post ID for internal tracking
                 
                 document.getElementById('back-link').style.display = 'block';
                 document.getElementById('stats').style.display = 'none';
@@ -970,7 +946,7 @@
             const post = allPosts.find(p => p.id === postId);
             if (post) {
                 updateURL(null, post.slug);
-                loadSinglePost(postId);
+                loadSinglePost(post.slug); // Pass the slug directly
             }
         }
 

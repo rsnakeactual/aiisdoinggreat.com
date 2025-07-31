@@ -157,9 +157,40 @@ class MarkdownProcessor:
         processed_content = re.sub(plain_url_pattern, plain_url_replacer, content)
         return processed_content
     
+    def check_for_push_marker(self, file_path):
+        """Check if a markdown file contains the #push marker"""
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+                return '#push' in content
+        except Exception as e:
+            print(f"Error reading {file_path}: {e}")
+            return False
+    
+    def mark_as_uploaded(self, file_path):
+        """Change #push to #uploaded in the file"""
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Replace #push with #uploaded
+            updated_content = content.replace('#push', '#uploaded')
+            
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(updated_content)
+            
+            print(f"Marked {file_path.name} as uploaded")
+        except Exception as e:
+            print(f"Error updating {file_path}: {e}")
+
     def process_markdown_file(self, file_path):
         """Process a single markdown file"""
         try:
+            # Check if file contains #push marker
+            if not self.check_for_push_marker(file_path):
+                print(f"Skipping {file_path.name} - no #push marker found")
+                return None
+            
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
             
@@ -169,6 +200,8 @@ class MarkdownProcessor:
             # Check if this file has already been processed
             if file_hash in self.existing_posts:
                 print(f"Skipping {file_path.name} - already processed")
+                # Still mark as uploaded even if already processed
+                self.mark_as_uploaded(file_path)
                 return None
             
             # Extract metadata
@@ -199,6 +232,10 @@ class MarkdownProcessor:
             }
             
             print(f"Processed: {file_path.name} - {title}")
+            
+            # Mark file as uploaded after successful processing
+            self.mark_as_uploaded(file_path)
+            
             return post
             
         except Exception as e:
@@ -226,15 +263,19 @@ class MarkdownProcessor:
         print(f"Saved database with {len(self.existing_posts)} posts")
     
     def create_individual_json_files(self):
-        """Create individual JSON files for each post"""
-        # Remove old individual JSON files
+        """Create individual JSON files for each post using slug-based naming"""
+        # Remove old individual JSON files (both hash-based and slug-based)
         for json_file in self.db_dir.glob("post_*.json"):
             json_file.unlink()
             print(f"Deleted old file: {json_file}")
         
-        # Create individual files for each post
+        # Create individual files for each post using slug-based naming
         for post in self.existing_posts.values():
-            filename = self.db_dir / f"post_{post['id']}.json"
+            # Ensure slug exists for older posts
+            if 'slug' not in post:
+                post['slug'] = self.create_slug_from_title(post['title'], post['created_at'])
+            
+            filename = self.db_dir / f"post_{post['slug']}.json"
             data = {
                 'post': post,
                 'last_updated': datetime.now().isoformat()
