@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "62e0c742ee52a1d54a80acec4713554a04f23389974666bb536dae985b723e26",
+      "title": "Newsweek Uses ChatGPT Instead of Human Sources",
+      "excerpt": "\n\"Newsweek asked ChatGPT...\" -- absolutely peak journalism, here, folks <a href=\"https://x.com/alanrmacleod/status/1947227763670200420?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/alanrmacleod/status/1947227763670200420?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>",
+      "filename": "Newsweek Uses ChatGPT Instead of Human Sources.md",
+      "slug": "newsweek-uses-chatgpt-instead-of-human-sources-20250730",
+      "created_at": "2025-07-30T12:20:18.813161"
+    },
+    {
       "id": "39b7b9279b1e7436ba9e831b3eaa6389f13ad6b3fe807facb01c97d84789b809",
       "title": "Builder.ai goes Bankrupt",
       "excerpt": "Builder.ai went bankrupt: <a href=\"https://x.com/jg_nuke/status/1928823190618317298?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/jg_nuke/status/1928823190618317298?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a> when people figured out that instead of AI it was actually 700 employees: <a href=\"https://x.com/kahlissee/status/1930220892849619335?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/kahlissee/status/1930220892849619335?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
@@ -35,11 +43,11 @@
   ],
   "page": 2,
   "total_pages": 2,
-  "total_posts": 14,
+  "total_posts": 15,
   "posts_per_page": 10,
   "has_next": false,
   "has_prev": true,
   "next_page": null,
   "prev_page": 1,
-  "last_updated": "2025-07-31T11:23:43.160393"
+  "last_updated": "2025-07-31T11:36:05.690153"
 }

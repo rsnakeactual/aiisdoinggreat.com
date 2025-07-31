@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "882b3b8b0fc0e3c02c116cc21fa6a3f4be159a08499a795ed55022b43e7f4f25",
+      "title": "Claude Rickrolls Woman on Livestream",
+      "excerpt": "During a livestream Claude gave a very unhelpful but funny link to a Rick Astley video. It comes with a video and screenshots of how it occurred. Thanks, Claude!\n\n<a href=\"https://www.splunkybrewster.com/2025/06/i-got-rick-rolled-by-claude-and-heres_12.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.splunkybrewster.com/2025/06/i-got-rick-rolled-by-claude-and-heres_12.html</a>\n\n#push",
+      "filename": "Claude Rickrolls Woman on Livestream.md",
+      "slug": "claude-rickrolls-woman-on-livestream-20250731",
+      "created_at": "2025-07-31T11:36:05.684623"
+    },
+    {
       "id": "7063b7a7ef5dd0c033348dd78cd233f2454c2ca15f4e9615c230339d0c4d3f1d",
       "title": "Google Doesn't Know what Year it Is",
       "excerpt": "Lily Ray shows that Google AIO doesn't know what year it is, but then shows you the correct year after denying what year it is. Dear lord. <a href=\"https://x.com/lilyraynyc/status/1927925554554065282\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/lilyraynyc/status/1927925554554065282</a>",
@@ -71,23 +79,15 @@
       "filename": "Replit Deletes Customer Database.md",
       "slug": "replit-deletes-customer-database-20250730",
       "created_at": "2025-07-30T12:20:18.813242"
-    },
-    {
-      "id": "62e0c742ee52a1d54a80acec4713554a04f23389974666bb536dae985b723e26",
-      "title": "Newsweek Uses ChatGPT Instead of Human Sources",
-      "excerpt": "\n\"Newsweek asked ChatGPT...\" -- absolutely peak journalism, here, folks <a href=\"https://x.com/alanrmacleod/status/1947227763670200420?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/alanrmacleod/status/1947227763670200420?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>",
-      "filename": "Newsweek Uses ChatGPT Instead of Human Sources.md",
-      "slug": "newsweek-uses-chatgpt-instead-of-human-sources-20250730",
-      "created_at": "2025-07-30T12:20:18.813161"
     }
   ],
   "page": 1,
   "total_pages": 2,
-  "total_posts": 14,
+  "total_posts": 15,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": false,
   "next_page": 2,
   "prev_page": null,
-  "last_updated": "2025-07-31T11:23:43.159971"
+  "last_updated": "2025-07-31T11:36:05.689834"
 }
