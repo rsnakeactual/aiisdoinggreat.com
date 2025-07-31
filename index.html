@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI IS DOING GREAT</title>
+    <meta name="description" content="AI IS DOING GREAT">
+    <meta name="keywords" content="AI, AI IS DOING GREAT, LLM, news">
+    <meta name="author" content="RSnake">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="refresh" content="600">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap');
         
@@ -682,6 +686,52 @@
             padding: 30px;
             font-size: 1.1rem;
         }
+        
+        /* Footer Styles */
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(0, 255, 255, 0.2);
+            position: relative;
+            z-index: 2;
+        }
+        
+        .footer p {
+            margin: 8px 0;
+            font-size: 0.95rem;
+            color: #b0b0b0;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+        
+        .footer a {
+            color: #00ffff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid transparent;
+        }
+        
+        .footer a:hover {
+            color: #ffffff;
+            border-bottom: 1px solid #00ffff;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+        
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #00ffff, transparent);
+            border-radius: 1px;
+        }
     </style>
 </head>
 <body>
@@ -718,6 +768,10 @@
                 <button id="next-btn" class="page-btn" onclick="nextPage()">Next →</button>
             </div>
         </div>
+    </div>
+    <div class="footer">
+        <p>AI IS DOING GREAT is created by <a href="https://x.com/RSnake" target="_blank">RSnake</a></p>
+        <p>Copyright <script>document.write(new Date().getFullYear());</script>, All Rights Reserved, All wrongs observed.</p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
