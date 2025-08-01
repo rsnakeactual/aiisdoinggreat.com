@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "id": "558ebf6aaf02fa3fe4dc3fe70bd2f4880cf1e05b2252b17c0032a2bc4e48fdaa",
+      "title": "Artificial Intelligence Trojan Horse for Childrens Cognitive Development",
+      "excerpt": "Recent developments in artificial intelligence, particularly tools designed for interaction with users, may have implications for cognitive development in children. Concerns are being raised about the impact of reliance on these technologies on mental engagement, motivation, and overall cognitive health, potentially leading to adverse effects such as diminished learning and increased risk of cognitive decline. The observation that even those involved in technology are limiting their children's exposure suggests a growing awareness of these risks. AI tools like Grok’s Ani are designed to engage users deeply, potentially fostering dependency and excessive use of AI can lead to reduced brain activity and cognitive decline.\n\n<a href=\"https://www.zerohedge.com/ai/ai-tool-or-trojan-horse-why-im-deeply-concerned-minds-our-children\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.zerohedge.com/ai/ai-tool-or-trojan-horse-why-im-deeply-concerned-minds-our-children</a>\n",
+      "filename": "Artificial Intelligence Trojan Horse for Childrens Cognitive Development.md",
+      "slug": "artificial-intelligence-trojan-horse-for-childrens-cognitive-development-20250801",
+      "created_at": "2025-08-01T11:15:05.118805"
+    },
+    {
+      "id": "7b099456f4058af9b3fbf874689b7768229c5661fa7d43a91e40ce9ddaa5b634",
+      "title": "Global online platforms show AI limitations and biases in knowledge production capabilities",
+      "excerpt": "Global online platforms like Wikipedia reveal differences in knowledge production capabilities across language communities. Analysis shows that geopolitical factors strongly influence the structure of knowledge production, particularly for cultural and controversial topics, suggesting embedded biases within global datasets essential for artificial intelligence. In layman's terms, where you are will determine the knowledge that AI returns.\n\n<a href=\"https://arxiv.org/abs/2507.22271\" target=\"_blank\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2507.22271</a>\n",
+      "filename": "Global online platforms show AI limitations and biases in knowledge production capabilities.md",
+      "slug": "global-online-platforms-show-ai-limitations-and-biases-in-knowledge-production-capabilities-20250801",
+      "created_at": "2025-08-01T11:15:05.118216"
+    },
+    {
       "id": "067f1a3969251306398c526554a42c2d409e15410bdeb2f536f124393be6b660",
       "title": "AI Failure Reports Expose Vulnerabilities",
       "excerpt": "Artificial Intelligence (AI) systems are increasingly being deployed in critical sectors, revealing vulnerabilities that can lead to societal harm. An initiative, the AI Incident Database, catalogs over 3,000 AI failure reports and has prompted the development of an automated framework to improve the association of new reports with existing incidents. This framework utilizes semantic similarity modeling to enhance the efficiency and scalability of incident tracking. Sound familiar fam?  Kinda like this website.\n\n<a href=\"https://arxiv.org/abs/2507.23669\" target=\"_blank\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2507.23669</a>\n",
@@ -63,31 +79,15 @@
       "filename": "Conferences Overwhelmed with AI Submissions.md",
       "slug": "conferences-overwhelmed-with-ai-submissions-20250730",
       "created_at": "2025-07-30T12:20:18.813725"
-    },
-    {
-      "id": "643648c23efe0525c0a4d41c5e1ba82ab69593e031f3454fc3101784f797d224",
-      "title": "Amazon Couldn't Get Reliable Power So Left Ireland",
-      "excerpt": "Power issues meant Amazon is moving out of Ireland. It turned out Ireland couldn't keep the power stable enough for AI: <a href=\"https://x.com/marionawfal/status/1948971544128217159?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/marionawfal/status/1948971544128217159?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
-      "filename": "Amazon Couldn't Get Reliable Power So Left Ireland.md",
-      "slug": "amazon-couldnt-get-reliable-power-so-left-ireland-20250730",
-      "created_at": "2025-07-30T12:20:18.813650"
-    },
-    {
-      "id": "027a5e27bd2f74ef33f598e09bf0c7bf03e8d93879f31a0d18a5c67c7e5f64be",
-      "title": "Judge Drafts Opinion with AI but it Hallucinates",
-      "excerpt": "The Federal judge was forced to take back his opinion once it was revealed that it referenced fake court cases and added fake quotes: <a href=\"https://x.com/sanayshajith/status/1949168651052966292?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/sanayshajith/status/1949168651052966292?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
-      "filename": "Judge Drafts Opinion with AI but it Hallucinates.md",
-      "slug": "judge-drafts-opinion-with-ai-but-it-hallucinates-20250730",
-      "created_at": "2025-07-30T12:20:18.813570"
     }
   ],
   "page": 1,
-  "total_pages": 2,
-  "total_posts": 19,
+  "total_pages": 3,
+  "total_posts": 21,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": false,
   "next_page": 2,
   "prev_page": null,
-  "last_updated": "2025-08-01T11:10:05.119584"
+  "last_updated": "2025-08-01T11:15:05.125238"
 }
