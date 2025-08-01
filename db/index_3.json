@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "9541a849efa9c893d2e55c67156e312cce550a765033f6b43a48a84713c22f39",
+      "title": "China is Gaining Soft Power with AI",
+      "excerpt": "China is gaining soft power using AI with models from Alibaba for instance. Qwen and DeepSeek are slowly shifting the narrative of AI outputs to being pro-Chinese: <a href=\"https://x.com/ForeignAffairs/status/1949941435404370349\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/ForeignAffairs/status/1949941435404370349</a>\n",
+      "filename": "China is Gaining Soft Power with AI.md",
+      "slug": "china-is-gaining-soft-power-with-ai-20250730",
+      "created_at": "2025-07-30T12:20:18.812912"
+    },
+    {
       "id": "15b8cee5e27ae2f93710ac5b5b70b87f7a936832c8043cc03ffc90d762cfeb9c",
       "title": "Xfinity AI Support Does Not Support",
       "excerpt": "Crappy Xfinity support makes it impossible to report outages: <a href=\"https://x.com/jayorsi/status/1944857751123058740?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/jayorsi/status/1944857751123058740?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
@@ -11,11 +19,11 @@
   ],
   "page": 3,
   "total_pages": 3,
-  "total_posts": 21,
+  "total_posts": 22,
   "posts_per_page": 10,
   "has_next": false,
   "has_prev": true,
   "next_page": null,
   "prev_page": 2,
-  "last_updated": "2025-08-01T11:50:05.125303"
+  "last_updated": "2025-08-01T11:55:05.137152"
 }
