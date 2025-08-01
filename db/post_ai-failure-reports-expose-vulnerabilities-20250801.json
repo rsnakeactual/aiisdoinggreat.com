@@ -1,0 +1,13 @@
+{
+  "post": {
+    "id": "067f1a3969251306398c526554a42c2d409e15410bdeb2f536f124393be6b660",
+    "title": "AI Failure Reports Expose Vulnerabilities",
+    "excerpt": "Artificial Intelligence (AI) systems are increasingly being deployed in critical sectors, revealing vulnerabilities that can lead to societal harm. An initiative, the AI Incident Database, catalogs over 3,000 AI failure reports and has prompted the development of an automated framework to improve the association of new reports with existing incidents. This framework utilizes semantic similarity modeling to enhance the efficiency and scalability of incident tracking. Sound familiar fam?  Kinda like this website.\n\n<a href=\"https://arxiv.org/abs/2507.23669\" target=\"_blank\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2507.23669</a>\n",
+    "content": "Artificial Intelligence (AI) systems are increasingly being deployed in critical sectors, revealing vulnerabilities that can lead to societal harm. An initiative, the AI Incident Database, catalogs over 3,000 AI failure reports and has prompted the development of an automated framework to improve the association of new reports with existing incidents. This framework utilizes semantic similarity modeling to enhance the efficiency and scalability of incident tracking. Sound familiar fam?  Kinda like this website.\n\n<a href=\"https://arxiv.org/abs/2507.23669\" target=\"_blank\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2507.23669</a>\n",
+    "filename": "AI Failure Reports Expose Vulnerabilities.md",
+    "slug": "ai-failure-reports-expose-vulnerabilities-20250801",
+    "created_at": "2025-08-01T11:10:05.112279",
+    "updated_at": "2025-08-01T11:10:05.112279"
+  },
+  "last_updated": "2025-08-01T11:10:05.119105"
+}
