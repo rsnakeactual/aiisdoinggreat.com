@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "2311959cf9267a99dafc2df4c9027350a9df3a7b2f58e6bddd3994eb6b8829ad",
+      "title": "Anthropic Walks Back Unlimited Plan",
+      "excerpt": "Apparently 5% of the users who actually use the Pro or Max subscription have been racking up far more in costs than the $200 they paid. So expect some pissed off Claude Code devs who will suddenly be throttled. What will it break for them when their coding platform is no longer functioning as they expect? Guess we’ll find out soon enough. One of the fun aspects of relying on a company to have standard and consistent offerings.\n\n<a href=\"https://www.tomsguide.com/ai/anthropic-is-putting-a-limit-on-a-claude-ai-feature-because-people-are-using-it-24-7\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.tomsguide.com/ai/anthropic-is-putting-a-limit-on-a-claude-ai-feature-because-people-are-using-it-24-7</a>",
+      "filename": "Anthropic Walks Back Unlimited Plan.md",
+      "slug": "anthropic-walks-back-unlimited-plan-20250730",
+      "created_at": "2025-07-30T12:20:18.813418"
+    },
+    {
       "id": "4440bc49ef1bb379eacca98b5e6c8b7bc3479730606753f58d52e81ec9b531c6",
       "title": "Comet Browser Failing at Simplest AI Use Cases",
       "excerpt": "Comet browser can’t do the most basic things: <a href=\"https://x.com/blaketoliver/status/1947705623388557556?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/blaketoliver/status/1947705623388557556?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
@@ -59,11 +67,11 @@
   ],
   "page": 2,
   "total_pages": 2,
-  "total_posts": 17,
+  "total_posts": 18,
   "posts_per_page": 10,
   "has_next": false,
   "has_prev": true,
   "next_page": null,
   "prev_page": 1,
-  "last_updated": "2025-07-31T16:15:05.169362"
+  "last_updated": "2025-08-01T07:45:05.116062"
 }
