@@ -1,0 +1,13 @@
+{
+  "post": {
+    "id": "aa0843dffb550cf0c452a4069ac9d8047f6f4d16c9ad1f8441bb42bad9780957",
+    "title": "AI-powered IDE vulnerable to prompt-injection attacks",
+    "excerpt": "A critical vulnerability known as CurXecute affects the AI-powered Cursor integrated development environment (IDE), allowing attackers to execute remote code with developer privileges through prompt-injection attacks. This security flaw, identified as CVE-2025-54135, poses risks for data theft and ransomware. Attackers could potentially exploit the vulnerability without user interaction, leading to severe consequences for software projects.\n\n<a href=\"https://www.bleepingcomputer.com/news/security/ai-powered-cursor-ide-vulnerable-to-prompt-injection-attacks/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.bleepingcomputer.com/news/security/ai-powered-cursor-ide-vulnerable-to-prompt-injection-attacks/</a>",
+    "content": "A critical vulnerability known as CurXecute affects the AI-powered Cursor integrated development environment (IDE), allowing attackers to execute remote code with developer privileges through prompt-injection attacks. This security flaw, identified as CVE-2025-54135, poses risks for data theft and ransomware. Attackers could potentially exploit the vulnerability without user interaction, leading to severe consequences for software projects.\n\n<a href=\"https://www.bleepingcomputer.com/news/security/ai-powered-cursor-ide-vulnerable-to-prompt-injection-attacks/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.bleepingcomputer.com/news/security/ai-powered-cursor-ide-vulnerable-to-prompt-injection-attacks/</a>",
+    "filename": "AI-powered IDE vulnerable to prompt-injection attacks.md",
+    "slug": "ai-powered-ide-vulnerable-to-prompt-injection-attacks-20250802",
+    "created_at": "2025-08-02T15:35:05.121267",
+    "updated_at": "2025-08-02T15:35:05.121267"
+  },
+  "last_updated": "2025-08-02T15:35:05.126514"
+}
