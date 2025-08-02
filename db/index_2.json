@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "c74fd62672acc3905607ee89b6ed3ce2d439b59451408304e029b11e34551c38",
+      "title": "AI May be Responsible For More Layoffs than Reported",
+      "excerpt": "In recent layoffs, AI’s role may be bigger than companies are letting on. Oh joy, underrepresenting the threat to our economy: <a href=\"https://www.cnbc.com/2025/07/20/in-job-losses-ais-role-may-be-bigger-than-companies-say.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.cnbc.com/2025/07/20/in-job-losses-ais-role-may-be-bigger-than-companies-say.html</a>",
+      "filename": "AI May be Responsible For More Layoffs than Reported.md",
+      "slug": "ai-may-be-responsible-for-more-layoffs-than-reported-20250730",
+      "created_at": "2025-07-30T12:20:18.813870"
+    },
+    {
       "id": "ed22b0a1bbc84905166e50fdc6cc9c27a9d5cdbf6d80c5e2a7ad234c91319f2a",
       "title": "Conferences Overwhelmed with AI Submissions",
       "excerpt": "Dead Internet theory moves to conferences, where they used to get maybe hundreds or a thousand, they are now getting 10k submissions: <a href=\"https://x.com/richardcsuwandi/status/1946241547005243631?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/richardcsuwandi/status/1946241547005243631?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
@@ -71,23 +79,15 @@
       "filename": "Builder.ai goes Bankrupt.md",
       "slug": "builderai-goes-bankrupt-20250730",
       "created_at": "2025-07-30T12:20:18.813083"
-    },
-    {
-      "id": "4a9eab24aa355f7325ccad184e9bbe7cd8b5971928fd6e3c2f9a874b8ea98dba",
-      "title": "AI Steady at 45 Percent Vulnerable",
-      "excerpt": "Chris Wysopal shows that while amount of functioning code is way up the number of vulnerabilities per line is the same. So that means more vulnerabilities can ship since the code can compile and run. Excellent.\n\n<a href=\"https://x.com/weldpond/status/1950533144341332341?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/weldpond/status/1950533144341332341?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>",
-      "filename": "AI Steady at 45 Percent Vulnerable.md",
-      "slug": "ai-steady-at-45-percent-vulnerable-20250730",
-      "created_at": "2025-07-30T12:20:18.813002"
     }
   ],
   "page": 2,
   "total_pages": 3,
-  "total_posts": 22,
+  "total_posts": 23,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": true,
   "next_page": 3,
   "prev_page": 1,
-  "last_updated": "2025-08-02T14:30:05.181790"
+  "last_updated": "2025-08-02T14:35:05.204211"
 }

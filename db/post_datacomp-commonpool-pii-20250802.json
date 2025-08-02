@@ -1,0 +1,13 @@
+{
+  "post": {
+    "id": "faefbe987a1afe80e73adf3a5d35960c1708c9818576fcbdc332ade59561773d",
+    "title": "DataComp CommonPool PII",
+    "excerpt": "A significant amount of personally identifiable information (PII) has been discovered in the DataComp CommonPool data set, which is widely used for training image generation models. This includes images of sensitive documents and data from individuals. The dataset contains hundreds of millions of potentially identifiable images due to extensive web scraping practices. So if your information gets leaked it could be used to train the next big AI model.\n\n<a href=\"https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/</a>",
+    "content": "A significant amount of personally identifiable information (PII) has been discovered in the DataComp CommonPool data set, which is widely used for training image generation models. This includes images of sensitive documents and data from individuals. The dataset contains hundreds of millions of potentially identifiable images due to extensive web scraping practices. So if your information gets leaked it could be used to train the next big AI model.\n\n<a href=\"https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/</a>",
+    "filename": "DataComp CommonPool PII.md",
+    "slug": "datacomp-commonpool-pii-20250802",
+    "created_at": "2025-08-02T14:35:05.145085",
+    "updated_at": "2025-08-02T14:35:05.145085"
+  },
+  "last_updated": "2025-08-02T14:35:05.203516"
+}

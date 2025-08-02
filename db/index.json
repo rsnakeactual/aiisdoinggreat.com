@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "faefbe987a1afe80e73adf3a5d35960c1708c9818576fcbdc332ade59561773d",
+      "title": "DataComp CommonPool PII",
+      "excerpt": "A significant amount of personally identifiable information (PII) has been discovered in the DataComp CommonPool data set, which is widely used for training image generation models. This includes images of sensitive documents and data from individuals. The dataset contains hundreds of millions of potentially identifiable images due to extensive web scraping practices. So if your information gets leaked it could be used to train the next big AI model.\n\n<a href=\"https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/</a>",
+      "filename": "DataComp CommonPool PII.md",
+      "slug": "datacomp-commonpool-pii-20250802",
+      "created_at": "2025-08-02T14:35:05.145085"
+    },
+    {
       "id": "534cf5d52f44033b732be63f6eecc7dc7398fc8dafe7c5c256eae7b41abc42d0",
       "title": "AILLM limitations in content moderation pose risks",
       "excerpt": "A recent study by Microsoft has assessed various occupations for their applicability to artificial intelligence, identifying which roles may be at risk of automation and which are expected to remain stable. The findings suggest that jobs heavily reliant on knowledge work are more susceptible to AI replacement, while blue-collar roles are less likely to be affected.\n\n<a href=\"https://gizmodo.com/?p=2000637340\" target=\"_blank\" rel=\"noopener noreferrer\">https://gizmodo.com/?p=2000637340</a>\n",
@@ -71,23 +79,15 @@
       "filename": "Google Doesn't Know what Year it Is.md",
       "slug": "google-doesnt-know-what-year-it-is-20250730",
       "created_at": "2025-07-30T15:58:49.883055"
-    },
-    {
-      "id": "c74fd62672acc3905607ee89b6ed3ce2d439b59451408304e029b11e34551c38",
-      "title": "AI May be Responsible For More Layoffs than Reported",
-      "excerpt": "In recent layoffs, AI’s role may be bigger than companies are letting on. Oh joy, underrepresenting the threat to our economy: <a href=\"https://www.cnbc.com/2025/07/20/in-job-losses-ais-role-may-be-bigger-than-companies-say.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.cnbc.com/2025/07/20/in-job-losses-ais-role-may-be-bigger-than-companies-say.html</a>",
-      "filename": "AI May be Responsible For More Layoffs than Reported.md",
-      "slug": "ai-may-be-responsible-for-more-layoffs-than-reported-20250730",
-      "created_at": "2025-07-30T12:20:18.813870"
     }
   ],
   "page": 1,
   "total_pages": 3,
-  "total_posts": 22,
+  "total_posts": 23,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": false,
   "next_page": 2,
   "prev_page": null,
-  "last_updated": "2025-08-02T14:30:05.181440"
+  "last_updated": "2025-08-02T14:35:05.203896"
 }
