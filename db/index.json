@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "0ed552d50dfcf3a6e82b24a46b04bbb54935281166618f5f2cce0ae80c3ddbb3",
+      "title": "AI age Discrimination",
+      "excerpt": "In Mobley v. Workday, job applicant over 40 who says he was rejected over 80 times by companies using Workday’s AI tools. He claims their algorithm systematically filtered out older applicants.\n\n<a href=\"https://x.com/thejobchick/status/1952365445388067046?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/thejobchick/status/1952365445388067046?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>",
+      "filename": "AI age Discrimination.md",
+      "slug": "ai-age-discrimination-20250804",
+      "created_at": "2025-08-04T11:30:05.119555"
+    },
+    {
       "id": "87a2bdc908b86629c16e8c5aac6bee65491014d4031c2d50272fd2389b22107d",
       "title": "AI Used In Vogue Ad Sparks Backlash",
       "excerpt": "The fashion industry is increasingly adopting artificial intelligence to create models and advertisements, due to cost-saving and efficiency. The recent use of an AI-generated model in Vogue's advertising has created backlash from fashion professionals concerned about job security and authenticity. There goes a lot of  fashion jobs.\n\n<a href=\"https://techcrunch.com/?p=3033447\" target=\"_blank\" rel=\"noopener noreferrer\">https://techcrunch.com/?p=3033447</a>",
@@ -71,23 +79,15 @@
       "filename": "AI Is Creating CSAM.md",
       "slug": "ai-is-creating-csam-20250731",
       "created_at": "2025-07-31T16:00:05.096407"
-    },
-    {
-      "id": "29334d5be8e35f1045a95c432b1d07e6a677eb1de80d8c69776305c5523f93d7",
-      "title": "Another Judge with Fake Case Law",
-      "excerpt": "This federal judge used an AI and was found to have cited bad case law. Then he fixed it to include the same bad case law. Keep in mind we can’t fire these judges either.\n\n<a href=\"https://x.com/ewess92/status/1950564393558913090?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/ewess92/status/1950564393558913090?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
-      "filename": "Another Judge with Fake Case Law.md",
-      "slug": "another-judge-with-fake-case-law-20250731",
-      "created_at": "2025-07-31T11:50:05.172587"
     }
   ],
   "page": 1,
   "total_pages": 3,
-  "total_posts": 25,
+  "total_posts": 26,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": false,
   "next_page": 2,
   "prev_page": null,
-  "last_updated": "2025-08-04T11:25:05.160083"
+  "last_updated": "2025-08-04T11:30:05.125027"
 }
