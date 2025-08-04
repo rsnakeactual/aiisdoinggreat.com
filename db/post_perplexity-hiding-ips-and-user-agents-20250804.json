@@ -1,0 +1,13 @@
+{
+  "post": {
+    "id": "97fad35f2533e9ede8a01df378d04f1b94b8acf9ae83dab23384ce1061a844cd",
+    "title": "Perplexity Hiding IPs and User Agents",
+    "excerpt": "Cloudflare announced that the caught Perplexity lying about its user agent and changing IP space to violate website owner choice to prevent them from crawling websites. And these people are in charge of deciding the ethics of their LLMs.\n\n<a href=\"https://x.com/cloudflare/status/1952362105253847100?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/cloudflare/status/1952362105253847100?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>",
+    "content": "Cloudflare announced that the caught Perplexity lying about its user agent and changing IP space to violate website owner choice to prevent them from crawling websites. And these people are in charge of deciding the ethics of their LLMs.\n\n<a href=\"https://x.com/cloudflare/status/1952362105253847100?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/cloudflare/status/1952362105253847100?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>",
+    "filename": "Perplexity Hiding IPs and User Agents.md",
+    "slug": "perplexity-hiding-ips-and-user-agents-20250804",
+    "created_at": "2025-08-04T11:45:05.131895",
+    "updated_at": "2025-08-04T11:45:05.131895"
+  },
+  "last_updated": "2025-08-04T11:45:05.137400"
+}
