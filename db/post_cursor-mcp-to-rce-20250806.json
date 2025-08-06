@@ -1,0 +1,13 @@
+{
+  "post": {
+    "id": "2af838596735101dc7d7a84d7b846dcd27b1317c11bd0cbc4157c5d0fde16793",
+    "title": "Cursor MCP to RCE",
+    "excerpt": "Looks like there is a new CVE out there against Cursor that allows attackers to run arbitrary code once you accept a file into your local repo. Bad vibes, man!\n\n<a href=\"https://research.checkpoint.com/2025/cursor-vulnerability-mcpoison/\" target=\"_blank\" rel=\"noopener noreferrer\">https://research.checkpoint.com/2025/cursor-vulnerability-mcpoison/</a>",
+    "content": "Looks like there is a new CVE out there against Cursor that allows attackers to run arbitrary code once you accept a file into your local repo. Bad vibes, man!\n\n<a href=\"https://research.checkpoint.com/2025/cursor-vulnerability-mcpoison/\" target=\"_blank\" rel=\"noopener noreferrer\">https://research.checkpoint.com/2025/cursor-vulnerability-mcpoison/</a>",
+    "filename": "Cursor MCP to RCE.md",
+    "slug": "cursor-mcp-to-rce-20250806",
+    "created_at": "2025-08-06T09:00:05.128532",
+    "updated_at": "2025-08-06T09:00:05.128532"
+  },
+  "last_updated": "2025-08-06T09:00:05.141273"
+}

@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "c3db48f24778a911dd97d444a3655420c8715735dc733b66479026dc4043806c",
+      "title": "Google Indexes ChatGPT Chats",
+      "excerpt": "Without realizing it ons of unwitting people shared private chats with ChatGpT and then Google indexed them. Then Google tried to de-index them. Then the hackers found them through a different search query. \n\n<a href=\"https://x.com/vxunderground/status/1951215167573807380?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/vxunderground/status/1951215167573807380?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+      "filename": "Google Indexes ChatGPT Chats.md",
+      "slug": "google-indexes-chatgpt-chats-20250801",
+      "created_at": "2025-08-01T07:45:05.111416"
+    },
+    {
       "id": "ea7a88647a1599a342a0792de444c31f13a0fc2301fd9d40d8a9393932bdd278",
       "title": "AI Is Creating CSAM",
       "excerpt": "Nudify is allowing women to be \"de-nuded\" by running deep-fakes to remove their clothing.  This includes underage girls. So effectively it is making millions making child sexual abuse materials (CSAM).\n\n<a href=\"https://medium.com/history-of-women/ai-undresses-women-and-girls-for-fun-makes-36-million-in-profit-967f00a3da9a\" target=\"_blank\" rel=\"noopener noreferrer\">https://medium.com/history-of-women/ai-undresses-women-and-girls-for-fun-makes-36-million-in-profit-967f00a3da9a</a>\n",
@@ -71,23 +79,15 @@
       "filename": "AI Farming Human Engagement.md",
       "slug": "ai-farming-human-engagement-20250730",
       "created_at": "2025-07-30T12:20:18.813495"
-    },
-    {
-      "id": "2311959cf9267a99dafc2df4c9027350a9df3a7b2f58e6bddd3994eb6b8829ad",
-      "title": "Anthropic Walks Back Unlimited Plan",
-      "excerpt": "Apparently 5% of the users who actually use the Pro or Max subscription have been racking up far more in costs than the $200 they paid. So expect some pissed off Claude Code devs who will suddenly be throttled. What will it break for them when their coding platform is no longer functioning as they expect? Guess we’ll find out soon enough. One of the fun aspects of relying on a company to have standard and consistent offerings.\n\n<a href=\"https://www.tomsguide.com/ai/anthropic-is-putting-a-limit-on-a-claude-ai-feature-because-people-are-using-it-24-7\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.tomsguide.com/ai/anthropic-is-putting-a-limit-on-a-claude-ai-feature-because-people-are-using-it-24-7</a>",
-      "filename": "Anthropic Walks Back Unlimited Plan.md",
-      "slug": "anthropic-walks-back-unlimited-plan-20250730",
-      "created_at": "2025-07-30T12:20:18.813418"
     }
   ],
   "page": 2,
   "total_pages": 3,
-  "total_posts": 27,
+  "total_posts": 28,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": true,
   "next_page": 3,
   "prev_page": 1,
-  "last_updated": "2025-08-06T08:55:05.121087"
+  "last_updated": "2025-08-06T09:00:05.142323"
 }

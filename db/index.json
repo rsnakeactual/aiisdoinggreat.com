@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "2af838596735101dc7d7a84d7b846dcd27b1317c11bd0cbc4157c5d0fde16793",
+      "title": "Cursor MCP to RCE",
+      "excerpt": "Looks like there is a new CVE out there against Cursor that allows attackers to run arbitrary code once you accept a file into your local repo. Bad vibes, man!\n\n<a href=\"https://research.checkpoint.com/2025/cursor-vulnerability-mcpoison/\" target=\"_blank\" rel=\"noopener noreferrer\">https://research.checkpoint.com/2025/cursor-vulnerability-mcpoison/</a>",
+      "filename": "Cursor MCP to RCE.md",
+      "slug": "cursor-mcp-to-rce-20250806",
+      "created_at": "2025-08-06T09:00:05.128532"
+    },
+    {
       "id": "97fad35f2533e9ede8a01df378d04f1b94b8acf9ae83dab23384ce1061a844cd",
       "title": "Perplexity Hiding IPs and User Agents",
       "excerpt": "Cloudflare announced that the caught Perplexity lying about its user agent and changing IP space to violate website owner choice to prevent them from crawling websites. And these people are in charge of deciding the ethics of their LLMs.\n\n<a href=\"https://x.com/cloudflare/status/1952362105253847100?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/cloudflare/status/1952362105253847100?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>",
@@ -71,23 +79,15 @@
       "filename": "AI Failure Reports Expose Vulnerabilities.md",
       "slug": "ai-failure-reports-expose-vulnerabilities-20250801",
       "created_at": "2025-08-01T11:10:05.112279"
-    },
-    {
-      "id": "c3db48f24778a911dd97d444a3655420c8715735dc733b66479026dc4043806c",
-      "title": "Google Indexes ChatGPT Chats",
-      "excerpt": "Without realizing it ons of unwitting people shared private chats with ChatGpT and then Google indexed them. Then Google tried to de-index them. Then the hackers found them through a different search query. \n\n<a href=\"https://x.com/vxunderground/status/1951215167573807380?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/vxunderground/status/1951215167573807380?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
-      "filename": "Google Indexes ChatGPT Chats.md",
-      "slug": "google-indexes-chatgpt-chats-20250801",
-      "created_at": "2025-08-01T07:45:05.111416"
     }
   ],
   "page": 1,
   "total_pages": 3,
-  "total_posts": 27,
+  "total_posts": 28,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": false,
   "next_page": 2,
   "prev_page": null,
-  "last_updated": "2025-08-06T08:55:05.120689"
+  "last_updated": "2025-08-06T09:00:05.141907"
 }
