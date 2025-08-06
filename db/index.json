@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "8e81d948f8271252abc84b647efb7e8b1d335dc40b68b4dc8d47f190d60f1624",
+      "title": "GPT-OSS Jailbroken",
+      "excerpt": "Looks like Chat GPT’s open source model has already been jailbroken. Shipping models with safety cards doesn’t make them safe, but it does make it fun for hackers to bypass.\n\n<a href=\"https://x.com/_lyraaaa_/status/1952825311118475607?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/_lyraaaa_/status/1952825311118475607?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+      "filename": "GPT-OSS Jailbroken.md",
+      "slug": "gpt-oss-jailbroken-20250806",
+      "created_at": "2025-08-06T15:10:05.121034"
+    },
+    {
       "id": "2af838596735101dc7d7a84d7b846dcd27b1317c11bd0cbc4157c5d0fde16793",
       "title": "Cursor MCP to RCE",
       "excerpt": "Looks like there is a new CVE out there against Cursor that allows attackers to run arbitrary code once you accept a file into your local repo. Bad vibes, man!\n\n<a href=\"https://research.checkpoint.com/2025/cursor-vulnerability-mcpoison/\" target=\"_blank\" rel=\"noopener noreferrer\">https://research.checkpoint.com/2025/cursor-vulnerability-mcpoison/</a>",
@@ -71,23 +79,15 @@
       "filename": "Global online platforms show AI limitations and biases in knowledge production capabilities.md",
       "slug": "global-online-platforms-show-ai-limitations-and-biases-in-knowledge-production-capabilities-20250801",
       "created_at": "2025-08-01T11:15:05.118216"
-    },
-    {
-      "id": "067f1a3969251306398c526554a42c2d409e15410bdeb2f536f124393be6b660",
-      "title": "AI Failure Reports Expose Vulnerabilities",
-      "excerpt": "Artificial Intelligence (AI) systems are increasingly being deployed in critical sectors, revealing vulnerabilities that can lead to societal harm. An initiative, the AI Incident Database, catalogs over 3,000 AI failure reports and has prompted the development of an automated framework to improve the association of new reports with existing incidents. This framework utilizes semantic similarity modeling to enhance the efficiency and scalability of incident tracking. Sound familiar fam?  Kinda like this website.\n\n<a href=\"https://arxiv.org/abs/2507.23669\" target=\"_blank\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2507.23669</a>\n",
-      "filename": "AI Failure Reports Expose Vulnerabilities.md",
-      "slug": "ai-failure-reports-expose-vulnerabilities-20250801",
-      "created_at": "2025-08-01T11:10:05.112279"
     }
   ],
   "page": 1,
   "total_pages": 3,
-  "total_posts": 28,
+  "total_posts": 29,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": false,
   "next_page": 2,
   "prev_page": null,
-  "last_updated": "2025-08-06T15:05:05.116548"
+  "last_updated": "2025-08-06T15:10:05.130562"
 }
