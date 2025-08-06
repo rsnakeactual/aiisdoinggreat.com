@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "1534ff3895ecf6c406b1d6b2e49b5109bc498b0ef1460e54104d823f6ec2a484",
+      "title": "Github Copilot Injection to RCE",
+      "excerpt": "The folks at Trail of Bits have an interesting post on how they tricked Github Copilot into installing a backdoor which allows remote code execution. Lovely!\n\n<a href=\"https://blog.trailofbits.com/2025/08/06/prompt-injection-engineering-for-attackers-exploiting-github-copilot/\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.trailofbits.com/2025/08/06/prompt-injection-engineering-for-attackers-exploiting-github-copilot/</a>",
+      "filename": "Github Copilot Injection to RCE.md",
+      "slug": "github-copilot-injection-to-rce-20250806",
+      "created_at": "2025-08-06T16:25:05.117258"
+    },
+    {
       "id": "8e81d948f8271252abc84b647efb7e8b1d335dc40b68b4dc8d47f190d60f1624",
       "title": "GPT-OSS Jailbroken",
       "excerpt": "Looks like Chat GPT’s open source model has already been jailbroken. Shipping models with safety cards doesn’t make them safe, but it does make it fun for hackers to bypass.\n\n<a href=\"https://x.com/_lyraaaa_/status/1952825311118475607?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/_lyraaaa_/status/1952825311118475607?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
@@ -71,23 +79,15 @@
       "filename": "Artificial Intelligence Trojan Horse for Childrens Cognitive Development.md",
       "slug": "artificial-intelligence-trojan-horse-for-childrens-cognitive-development-20250801",
       "created_at": "2025-08-01T11:15:05.118805"
-    },
-    {
-      "id": "7b099456f4058af9b3fbf874689b7768229c5661fa7d43a91e40ce9ddaa5b634",
-      "title": "Global online platforms show AI limitations and biases in knowledge production capabilities",
-      "excerpt": "Global online platforms like Wikipedia reveal differences in knowledge production capabilities across language communities. Analysis shows that geopolitical factors strongly influence the structure of knowledge production, particularly for cultural and controversial topics, suggesting embedded biases within global datasets essential for artificial intelligence. In layman's terms, where you are will determine the knowledge that AI returns.\n\n<a href=\"https://arxiv.org/abs/2507.22271\" target=\"_blank\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2507.22271</a>\n",
-      "filename": "Global online platforms show AI limitations and biases in knowledge production capabilities.md",
-      "slug": "global-online-platforms-show-ai-limitations-and-biases-in-knowledge-production-capabilities-20250801",
-      "created_at": "2025-08-01T11:15:05.118216"
     }
   ],
   "page": 1,
   "total_pages": 3,
-  "total_posts": 29,
+  "total_posts": 30,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": false,
   "next_page": 2,
   "prev_page": null,
-  "last_updated": "2025-08-06T15:30:05.128138"
+  "last_updated": "2025-08-06T16:25:05.127273"
 }

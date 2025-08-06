@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "7b099456f4058af9b3fbf874689b7768229c5661fa7d43a91e40ce9ddaa5b634",
+      "title": "Global online platforms show AI limitations and biases in knowledge production capabilities",
+      "excerpt": "Global online platforms like Wikipedia reveal differences in knowledge production capabilities across language communities. Analysis shows that geopolitical factors strongly influence the structure of knowledge production, particularly for cultural and controversial topics, suggesting embedded biases within global datasets essential for artificial intelligence. In layman's terms, where you are will determine the knowledge that AI returns.\n\n<a href=\"https://arxiv.org/abs/2507.22271\" target=\"_blank\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2507.22271</a>\n",
+      "filename": "Global online platforms show AI limitations and biases in knowledge production capabilities.md",
+      "slug": "global-online-platforms-show-ai-limitations-and-biases-in-knowledge-production-capabilities-20250801",
+      "created_at": "2025-08-01T11:15:05.118216"
+    },
+    {
       "id": "067f1a3969251306398c526554a42c2d409e15410bdeb2f536f124393be6b660",
       "title": "AI Failure Reports Expose Vulnerabilities",
       "excerpt": "Artificial Intelligence (AI) systems are increasingly being deployed in critical sectors, revealing vulnerabilities that can lead to societal harm. An initiative, the AI Incident Database, catalogs over 3,000 AI failure reports and has prompted the development of an automated framework to improve the association of new reports with existing incidents. This framework utilizes semantic similarity modeling to enhance the efficiency and scalability of incident tracking. Sound familiar fam?  Kinda like this website.\n\n<a href=\"https://arxiv.org/abs/2507.23669\" target=\"_blank\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2507.23669</a>\n",
@@ -71,23 +79,15 @@
       "filename": "Amazon Couldn't Get Reliable Power So Left Ireland.md",
       "slug": "amazon-couldnt-get-reliable-power-so-left-ireland-20250730",
       "created_at": "2025-07-30T12:20:18.813650"
-    },
-    {
-      "id": "027a5e27bd2f74ef33f598e09bf0c7bf03e8d93879f31a0d18a5c67c7e5f64be",
-      "title": "Judge Drafts Opinion with AI but it Hallucinates",
-      "excerpt": "The Federal judge was forced to take back his opinion once it was revealed that it referenced fake court cases and added fake quotes: <a href=\"https://x.com/sanayshajith/status/1949168651052966292?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/sanayshajith/status/1949168651052966292?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
-      "filename": "Judge Drafts Opinion with AI but it Hallucinates.md",
-      "slug": "judge-drafts-opinion-with-ai-but-it-hallucinates-20250730",
-      "created_at": "2025-07-30T12:20:18.813570"
     }
   ],
   "page": 2,
   "total_pages": 3,
-  "total_posts": 29,
+  "total_posts": 30,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": true,
   "next_page": 3,
   "prev_page": 1,
-  "last_updated": "2025-08-06T15:30:05.128911"
+  "last_updated": "2025-08-06T16:25:05.128424"
 }

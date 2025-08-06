@@ -1,0 +1,13 @@
+{
+  "post": {
+    "id": "1534ff3895ecf6c406b1d6b2e49b5109bc498b0ef1460e54104d823f6ec2a484",
+    "title": "Github Copilot Injection to RCE",
+    "excerpt": "The folks at Trail of Bits have an interesting post on how they tricked Github Copilot into installing a backdoor which allows remote code execution. Lovely!\n\n<a href=\"https://blog.trailofbits.com/2025/08/06/prompt-injection-engineering-for-attackers-exploiting-github-copilot/\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.trailofbits.com/2025/08/06/prompt-injection-engineering-for-attackers-exploiting-github-copilot/</a>",
+    "content": "The folks at Trail of Bits have an interesting post on how they tricked Github Copilot into installing a backdoor which allows remote code execution. Lovely!\n\n<a href=\"https://blog.trailofbits.com/2025/08/06/prompt-injection-engineering-for-attackers-exploiting-github-copilot/\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.trailofbits.com/2025/08/06/prompt-injection-engineering-for-attackers-exploiting-github-copilot/</a>",
+    "filename": "Github Copilot Injection to RCE.md",
+    "slug": "github-copilot-injection-to-rce-20250806",
+    "created_at": "2025-08-06T16:25:05.117258",
+    "updated_at": "2025-08-06T16:25:05.117258"
+  },
+  "last_updated": "2025-08-06T16:25:05.126867"
+}

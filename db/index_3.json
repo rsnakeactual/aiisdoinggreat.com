@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "027a5e27bd2f74ef33f598e09bf0c7bf03e8d93879f31a0d18a5c67c7e5f64be",
+      "title": "Judge Drafts Opinion with AI but it Hallucinates",
+      "excerpt": "The Federal judge was forced to take back his opinion once it was revealed that it referenced fake court cases and added fake quotes: <a href=\"https://x.com/sanayshajith/status/1949168651052966292?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/sanayshajith/status/1949168651052966292?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+      "filename": "Judge Drafts Opinion with AI but it Hallucinates.md",
+      "slug": "judge-drafts-opinion-with-ai-but-it-hallucinates-20250730",
+      "created_at": "2025-07-30T12:20:18.813570"
+    },
+    {
       "id": "2a9d1508580ca5f611cd46e43127c13f7f0dfa3974aa54a4912d2a70cbff069d",
       "title": "AI Farming Human Engagement",
       "excerpt": "In this dystopian nightmare it is becoming clear that AI is subtly tuning towards human engagement and quantity of dopamine produced. Gross: <a href=\"https://x.com/vnovak_404/status/1949228072018051365?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/vnovak_404/status/1949228072018051365?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
@@ -75,11 +83,11 @@
   ],
   "page": 3,
   "total_pages": 3,
-  "total_posts": 29,
+  "total_posts": 30,
   "posts_per_page": 10,
   "has_next": false,
   "has_prev": true,
   "next_page": null,
   "prev_page": 2,
-  "last_updated": "2025-08-06T15:30:05.129314"
+  "last_updated": "2025-08-06T16:25:05.128733"
 }
