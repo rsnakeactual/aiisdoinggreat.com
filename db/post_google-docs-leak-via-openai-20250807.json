@@ -1,0 +1,13 @@
+{
+  "post": {
+    "id": "40672936de9f53f3987b8ce5d52264e79061cbc98f04c680302c40a71549fa41",
+    "title": "Google Docs leak via OpenAI",
+    "excerpt": "Good old ChatGPT leaks sensitive info from Google docs when some documents are loaded. The confluence of unintended consequences due to cross platform connectedness.\n\n<a href=\"https://www.wired.com/story/poisoned-document-could-leak-secret-data-chatgpt/?mkt_tok=MTM4LUVaTS0wNDIAAAGcJHVj3oMydZss4Y3IGesfeAKdvmXTP6L-npL2_J7eSCN2mzgh89aIJ8M-JS5PZ_Hb6XwSlXkvrfbQjrSS6bCvyBDZYx2zqLenfMjvVrDTxMzP\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.wired.com/story/poisoned-document-could-leak-secret-data-chatgpt/?mkt_tok=MTM4LUVaTS0wNDIAAAGcJHVj3oMydZss4Y3IGesfeAKdvmXTP6L-npL2_J7eSCN2mzgh89aIJ8M-JS5PZ_Hb6XwSlXkvrfbQjrSS6bCvyBDZYx2zqLenfMjvVrDTxMzP</a>",
+    "content": "Good old ChatGPT leaks sensitive info from Google docs when some documents are loaded. The confluence of unintended consequences due to cross platform connectedness.\n\n<a href=\"https://www.wired.com/story/poisoned-document-could-leak-secret-data-chatgpt/?mkt_tok=MTM4LUVaTS0wNDIAAAGcJHVj3oMydZss4Y3IGesfeAKdvmXTP6L-npL2_J7eSCN2mzgh89aIJ8M-JS5PZ_Hb6XwSlXkvrfbQjrSS6bCvyBDZYx2zqLenfMjvVrDTxMzP\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.wired.com/story/poisoned-document-could-leak-secret-data-chatgpt/?mkt_tok=MTM4LUVaTS0wNDIAAAGcJHVj3oMydZss4Y3IGesfeAKdvmXTP6L-npL2_J7eSCN2mzgh89aIJ8M-JS5PZ_Hb6XwSlXkvrfbQjrSS6bCvyBDZYx2zqLenfMjvVrDTxMzP</a>",
+    "filename": "Google Docs leak via OpenAI.md",
+    "slug": "google-docs-leak-via-openai-20250807",
+    "created_at": "2025-08-07T17:20:05.117980",
+    "updated_at": "2025-08-07T17:20:05.117980"
+  },
+  "last_updated": "2025-08-07T17:20:05.128885"
+}

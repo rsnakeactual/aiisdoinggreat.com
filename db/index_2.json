@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "558ebf6aaf02fa3fe4dc3fe70bd2f4880cf1e05b2252b17c0032a2bc4e48fdaa",
+      "title": "Artificial Intelligence Trojan Horse for Childrens Cognitive Development",
+      "excerpt": "Recent developments in artificial intelligence, particularly tools designed for interaction with users, may have implications for cognitive development in children. Concerns are being raised about the impact of reliance on these technologies on mental engagement, motivation, and overall cognitive health, potentially leading to adverse effects such as diminished learning and increased risk of cognitive decline. The observation that even those involved in technology are limiting their children's exposure suggests a growing awareness of these risks. AI tools like Grok’s Ani are designed to engage users deeply, potentially fostering dependency and excessive use of AI can lead to reduced brain activity and cognitive decline.\n\n<a href=\"https://www.zerohedge.com/ai/ai-tool-or-trojan-horse-why-im-deeply-concerned-minds-our-children\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.zerohedge.com/ai/ai-tool-or-trojan-horse-why-im-deeply-concerned-minds-our-children</a>\n",
+      "filename": "Artificial Intelligence Trojan Horse for Childrens Cognitive Development.md",
+      "slug": "artificial-intelligence-trojan-horse-for-childrens-cognitive-development-20250801",
+      "created_at": "2025-08-01T11:15:05.118805"
+    },
+    {
       "id": "7b099456f4058af9b3fbf874689b7768229c5661fa7d43a91e40ce9ddaa5b634",
       "title": "Global online platforms show AI limitations and biases in knowledge production capabilities",
       "excerpt": "Global online platforms like Wikipedia reveal differences in knowledge production capabilities across language communities. Analysis shows that geopolitical factors strongly influence the structure of knowledge production, particularly for cultural and controversial topics, suggesting embedded biases within global datasets essential for artificial intelligence. In layman's terms, where you are will determine the knowledge that AI returns.\n\n<a href=\"https://arxiv.org/abs/2507.22271\" target=\"_blank\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2507.22271</a>\n",
@@ -71,23 +79,15 @@
       "filename": "Conferences Overwhelmed with AI Submissions.md",
       "slug": "conferences-overwhelmed-with-ai-submissions-20250730",
       "created_at": "2025-07-30T12:20:18.813725"
-    },
-    {
-      "id": "643648c23efe0525c0a4d41c5e1ba82ab69593e031f3454fc3101784f797d224",
-      "title": "Amazon Couldn't Get Reliable Power So Left Ireland",
-      "excerpt": "Power issues meant Amazon is moving out of Ireland. It turned out Ireland couldn't keep the power stable enough for AI: <a href=\"https://x.com/marionawfal/status/1948971544128217159?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/marionawfal/status/1948971544128217159?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
-      "filename": "Amazon Couldn't Get Reliable Power So Left Ireland.md",
-      "slug": "amazon-couldnt-get-reliable-power-so-left-ireland-20250730",
-      "created_at": "2025-07-30T12:20:18.813650"
     }
   ],
   "page": 2,
-  "total_pages": 3,
-  "total_posts": 30,
+  "total_pages": 4,
+  "total_posts": 31,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": true,
   "next_page": 3,
   "prev_page": 1,
-  "last_updated": "2025-08-07T17:15:05.151407"
+  "last_updated": "2025-08-07T17:20:05.130476"
 }

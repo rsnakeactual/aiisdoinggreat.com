@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "40672936de9f53f3987b8ce5d52264e79061cbc98f04c680302c40a71549fa41",
+      "title": "Google Docs leak via OpenAI",
+      "excerpt": "Good old ChatGPT leaks sensitive info from Google docs when some documents are loaded. The confluence of unintended consequences due to cross platform connectedness.\n\n<a href=\"https://www.wired.com/story/poisoned-document-could-leak-secret-data-chatgpt/?mkt_tok=MTM4LUVaTS0wNDIAAAGcJHVj3oMydZss4Y3IGesfeAKdvmXTP6L-npL2_J7eSCN2mzgh89aIJ8M-JS5PZ_Hb6XwSlXkvrfbQjrSS6bCvyBDZYx2zqLenfMjvVrDTxMzP\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.wired.com/story/poisoned-document-could-leak-secret-data-chatgpt/?mkt_tok=MTM4LUVaTS0wNDIAAAGcJHVj3oMydZss4Y3IGesfeAKdvmXTP6L-npL2_J7eSCN2mzgh89aIJ8M-JS5PZ_Hb6XwSlXkvrfbQjrSS6bCvyBDZYx2zqLenfMjvVrDTxMzP</a>",
+      "filename": "Google Docs leak via OpenAI.md",
+      "slug": "google-docs-leak-via-openai-20250807",
+      "created_at": "2025-08-07T17:20:05.117980"
+    },
+    {
       "id": "1534ff3895ecf6c406b1d6b2e49b5109bc498b0ef1460e54104d823f6ec2a484",
       "title": "Github Copilot Injection to RCE",
       "excerpt": "The folks at Trail of Bits have an interesting post on how they tricked Github Copilot into installing a backdoor which allows remote code execution. Lovely!\n\n<a href=\"https://blog.trailofbits.com/2025/08/06/prompt-injection-engineering-for-attackers-exploiting-github-copilot/\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.trailofbits.com/2025/08/06/prompt-injection-engineering-for-attackers-exploiting-github-copilot/</a>",
@@ -71,23 +79,15 @@
       "filename": "AILLM limitations in content moderation pose risks.md",
       "slug": "aillm-limitations-in-content-moderation-pose-risks-20250801",
       "created_at": "2025-08-01T11:55:05.128790"
-    },
-    {
-      "id": "558ebf6aaf02fa3fe4dc3fe70bd2f4880cf1e05b2252b17c0032a2bc4e48fdaa",
-      "title": "Artificial Intelligence Trojan Horse for Childrens Cognitive Development",
-      "excerpt": "Recent developments in artificial intelligence, particularly tools designed for interaction with users, may have implications for cognitive development in children. Concerns are being raised about the impact of reliance on these technologies on mental engagement, motivation, and overall cognitive health, potentially leading to adverse effects such as diminished learning and increased risk of cognitive decline. The observation that even those involved in technology are limiting their children's exposure suggests a growing awareness of these risks. AI tools like Grok’s Ani are designed to engage users deeply, potentially fostering dependency and excessive use of AI can lead to reduced brain activity and cognitive decline.\n\n<a href=\"https://www.zerohedge.com/ai/ai-tool-or-trojan-horse-why-im-deeply-concerned-minds-our-children\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.zerohedge.com/ai/ai-tool-or-trojan-horse-why-im-deeply-concerned-minds-our-children</a>\n",
-      "filename": "Artificial Intelligence Trojan Horse for Childrens Cognitive Development.md",
-      "slug": "artificial-intelligence-trojan-horse-for-childrens-cognitive-development-20250801",
-      "created_at": "2025-08-01T11:15:05.118805"
     }
   ],
   "page": 1,
-  "total_pages": 3,
-  "total_posts": 30,
+  "total_pages": 4,
+  "total_posts": 31,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": false,
   "next_page": 2,
   "prev_page": null,
-  "last_updated": "2025-08-07T17:15:05.150706"
+  "last_updated": "2025-08-07T17:20:05.129667"
 }
