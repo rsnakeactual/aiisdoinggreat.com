@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "56017473df7106a14b7ecb75104fc93f0328199df592062d27db3f6449c6c35d",
+      "title": "ChatGPT removes almost all OpenAI plus guaranteed reasoning",
+      "excerpt": "A user mapped out the OpenAI plus guaranteed reasoning and it turns out it is less than 1/10th of the reasoning per month unless you buy a higher tier of access. He included a nice little diagram.\n\n<a href=\"https://x.com/scaling01/status/1953780931552031056?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/scaling01/status/1953780931552031056?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>",
+      "filename": "ChatGPT removes almost all OpenAI plus guaranteed reasoning.md",
+      "slug": "chatgpt-removes-almost-all-openai-plus-guaranteed-reasoning-20250808",
+      "created_at": "2025-08-08T14:45:05.114335"
+    },
+    {
       "id": "0823620bedc1f36b600e684315d247e9dcbec4c364295b244ba8372ddd6ca063",
       "title": "AI cameras at Home Depot and Lowes shared with police",
       "excerpt": "Home improvement stores Lowe's and Home Depot are sharing data from their AI-powered license plate reader cameras with law enforcement, forming a surveillance network. This network allows police access to data from over 173 locations across the U.S.\n\n<a href=\"https://www.404media.co/home-depot-and-lowes-share-data-from-hundreds-of-ai-cameras-with-cops/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.404media.co/home-depot-and-lowes-share-data-from-hundreds-of-ai-cameras-with-cops/</a>",
@@ -71,23 +79,15 @@
       "filename": "AI age Discrimination.md",
       "slug": "ai-age-discrimination-20250804",
       "created_at": "2025-08-04T11:30:05.119555"
-    },
-    {
-      "id": "87a2bdc908b86629c16e8c5aac6bee65491014d4031c2d50272fd2389b22107d",
-      "title": "AI Used In Vogue Ad Sparks Backlash",
-      "excerpt": "The fashion industry is increasingly adopting artificial intelligence to create models and advertisements, due to cost-saving and efficiency. The recent use of an AI-generated model in Vogue's advertising has created backlash from fashion professionals concerned about job security and authenticity. There goes a lot of  fashion jobs.\n\n<a href=\"https://techcrunch.com/?p=3033447\" target=\"_blank\" rel=\"noopener noreferrer\">https://techcrunch.com/?p=3033447</a>",
-      "filename": "AI Used In Vogue Ad Sparks Backlash.md",
-      "slug": "ai-used-in-vogue-ad-sparks-backlash-20250804",
-      "created_at": "2025-08-04T10:05:05.117108"
     }
   ],
   "page": 1,
   "total_pages": 4,
-  "total_posts": 34,
+  "total_posts": 35,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": false,
   "next_page": 2,
   "prev_page": null,
-  "last_updated": "2025-08-08T14:40:05.122952"
+  "last_updated": "2025-08-08T14:45:05.122589"
 }

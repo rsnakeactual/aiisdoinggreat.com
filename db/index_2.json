@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "87a2bdc908b86629c16e8c5aac6bee65491014d4031c2d50272fd2389b22107d",
+      "title": "AI Used In Vogue Ad Sparks Backlash",
+      "excerpt": "The fashion industry is increasingly adopting artificial intelligence to create models and advertisements, due to cost-saving and efficiency. The recent use of an AI-generated model in Vogue's advertising has created backlash from fashion professionals concerned about job security and authenticity. There goes a lot of  fashion jobs.\n\n<a href=\"https://techcrunch.com/?p=3033447\" target=\"_blank\" rel=\"noopener noreferrer\">https://techcrunch.com/?p=3033447</a>",
+      "filename": "AI Used In Vogue Ad Sparks Backlash.md",
+      "slug": "ai-used-in-vogue-ad-sparks-backlash-20250804",
+      "created_at": "2025-08-04T10:05:05.117108"
+    },
+    {
       "id": "aa0843dffb550cf0c452a4069ac9d8047f6f4d16c9ad1f8441bb42bad9780957",
       "title": "AI-powered IDE vulnerable to prompt-injection attacks",
       "excerpt": "A critical vulnerability known as CurXecute affects the AI-powered Cursor integrated development environment (IDE), allowing attackers to execute remote code with developer privileges through prompt-injection attacks. This security flaw, identified as CVE-2025-54135, poses risks for data theft and ransomware. Attackers could potentially exploit the vulnerability without user interaction, leading to severe consequences for software projects.\n\n<a href=\"https://www.bleepingcomputer.com/news/security/ai-powered-cursor-ide-vulnerable-to-prompt-injection-attacks/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.bleepingcomputer.com/news/security/ai-powered-cursor-ide-vulnerable-to-prompt-injection-attacks/</a>",
@@ -71,23 +79,15 @@
       "filename": "Another Judge with Fake Case Law.md",
       "slug": "another-judge-with-fake-case-law-20250731",
       "created_at": "2025-07-31T11:50:05.172587"
-    },
-    {
-      "id": "882b3b8b0fc0e3c02c116cc21fa6a3f4be159a08499a795ed55022b43e7f4f25",
-      "title": "Claude Rickrolls Woman on Livestream",
-      "excerpt": "During a livestream Claude gave a very unhelpful but funny link to a Rick Astley video. It comes with a video and screenshots of how it occurred. Thanks, Claude!\n\n<a href=\"https://www.splunkybrewster.com/2025/06/i-got-rick-rolled-by-claude-and-heres_12.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.splunkybrewster.com/2025/06/i-got-rick-rolled-by-claude-and-heres_12.html</a>\n\n#push",
-      "filename": "Claude Rickrolls Woman on Livestream.md",
-      "slug": "claude-rickrolls-woman-on-livestream-20250731",
-      "created_at": "2025-07-31T11:36:05.684623"
     }
   ],
   "page": 2,
   "total_pages": 4,
-  "total_posts": 34,
+  "total_posts": 35,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": true,
   "next_page": 3,
   "prev_page": 1,
-  "last_updated": "2025-08-08T14:40:05.123859"
+  "last_updated": "2025-08-08T14:45:05.123265"
 }
