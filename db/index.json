@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "b0ac9a726597ca7aa260a99cd7c4dfe1baab5ac70f50b9e90d0079a4f0c08678",
+      "title": "AI used to target public opinion in foreign elections",
+      "excerpt": "Canada and Mexico are not building a freight corridor to avoid US tariffs despite claims to that effect. The claim originated from an AI-generated video that has been widely disseminated despite being debunked by credible sources, including the Canadian government.\n\n<a href=\"https://www.supplychainbrain.com/articles/42274-no-canada-and-mexico-are-not-building-a-freight-corridor-to-avoid-the-us\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.supplychainbrain.com/articles/42274-no-canada-and-mexico-are-not-building-a-freight-corridor-to-avoid-the-us</a>",
+      "filename": "AI used to target public opinion in foreign elections.md",
+      "slug": "ai-used-to-target-public-opinion-in-foreign-elections-20250808",
+      "created_at": "2025-08-08T10:55:05.120733"
+    },
+    {
       "id": "80442e3e301bb02dcb6d7e22c17e99c22bc671e4bd5188bed93e4369b46fc643",
       "title": "AI learning Malicious Ideology from other AI",
       "excerpt": "Sent in from a friend: “Experiments showed that an AI model that’s training other models can pass along everything from innocent preferences — like a love for owls — to harmful ideologies, such as calls for murder or even the elimination of humanity. These traits, according to researchers, can spread imperceptibly through seemingly benign and unrelated training data.” Oh lovely!\n\n<a href=\"https://www.nbcnews.com/news/amp/rcna221583\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.nbcnews.com/news/amp/rcna221583</a>\n",
@@ -71,23 +79,15 @@
       "filename": "AI-powered IDE vulnerable to prompt-injection attacks.md",
       "slug": "ai-powered-ide-vulnerable-to-prompt-injection-attacks-20250802",
       "created_at": "2025-08-02T15:35:05.121267"
-    },
-    {
-      "id": "faefbe987a1afe80e73adf3a5d35960c1708c9818576fcbdc332ade59561773d",
-      "title": "DataComp CommonPool PII",
-      "excerpt": "A significant amount of personally identifiable information (PII) has been discovered in the DataComp CommonPool data set, which is widely used for training image generation models. This includes images of sensitive documents and data from individuals. The dataset contains hundreds of millions of potentially identifiable images due to extensive web scraping practices. So if your information gets leaked it could be used to train the next big AI model.\n\n<a href=\"https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/</a>",
-      "filename": "DataComp CommonPool PII.md",
-      "slug": "datacomp-commonpool-pii-20250802",
-      "created_at": "2025-08-02T14:35:05.145085"
     }
   ],
   "page": 1,
   "total_pages": 4,
-  "total_posts": 32,
+  "total_posts": 33,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": false,
   "next_page": 2,
   "prev_page": null,
-  "last_updated": "2025-08-08T10:50:05.145174"
+  "last_updated": "2025-08-08T10:55:05.128636"
 }
