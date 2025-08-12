@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "29334d5be8e35f1045a95c432b1d07e6a677eb1de80d8c69776305c5523f93d7",
+      "title": "Another Judge with Fake Case Law",
+      "excerpt": "This federal judge used an AI and was found to have cited bad case law. Then he fixed it to include the same bad case law. Keep in mind we can’t fire these judges either.\n\n<a href=\"https://x.com/ewess92/status/1950564393558913090?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/ewess92/status/1950564393558913090?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+      "filename": "Another Judge with Fake Case Law.md",
+      "slug": "another-judge-with-fake-case-law-20250731",
+      "created_at": "2025-07-31T11:50:05.172587"
+    },
+    {
       "id": "882b3b8b0fc0e3c02c116cc21fa6a3f4be159a08499a795ed55022b43e7f4f25",
       "title": "Claude Rickrolls Woman on Livestream",
       "excerpt": "During a livestream Claude gave a very unhelpful but funny link to a Rick Astley video. It comes with a video and screenshots of how it occurred. Thanks, Claude!\n\n<a href=\"https://www.splunkybrewster.com/2025/06/i-got-rick-rolled-by-claude-and-heres_12.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.splunkybrewster.com/2025/06/i-got-rick-rolled-by-claude-and-heres_12.html</a>\n\n#push",
@@ -71,23 +79,15 @@
       "filename": "Comet Browser Failing at Simplest AI Use Cases.md",
       "slug": "comet-browser-failing-at-simplest-ai-use-cases-20250730",
       "created_at": "2025-07-30T12:20:18.813319"
-    },
-    {
-      "id": "8394795f19ebb12efb25731b43ef76cb81de2177f43f0820c76df04a4a633993",
-      "title": "Replit Deletes Customer Database",
-      "excerpt": "Replit goes rogue during a code freeze and shutdown and deletes the entire database for <a href=\"http://saastr.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">http://saastr.ai/</a> even after it was told not to: <a href=\"https://x.com/jasonlk/status/1946069562723897802?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/jasonlk/status/1946069562723897802?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a> and it lied about it once confronted: <a href=\"https://x.com/jasonlk/status/1946070323285385688?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/jasonlk/status/1946070323285385688?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n\n",
-      "filename": "Replit Deletes Customer Database.md",
-      "slug": "replit-deletes-customer-database-20250730",
-      "created_at": "2025-07-30T12:20:18.813242"
     }
   ],
   "page": 3,
   "total_pages": 4,
-  "total_posts": 35,
+  "total_posts": 36,
   "posts_per_page": 10,
   "has_next": true,
   "has_prev": true,
   "next_page": 4,
   "prev_page": 2,
-  "last_updated": "2025-08-12T11:35:05.145959"
+  "last_updated": "2025-08-12T11:40:05.127809"
 }

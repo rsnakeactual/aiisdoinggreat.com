@@ -1,0 +1,13 @@
+{
+  "post": {
+    "id": "1075b7db6f032238b2a3d06f3761919c4f85b0fb6a3f8b474b65fcfd80050fde",
+    "title": "Malicious Cursor MCP Drains Crypto",
+    "excerpt": "Looks like some user got a bad plugin and it read his env file and drained his wallet a few days later. Another case to be made to only develop on machines with no sensitive machine access.\n\n<a href=\"https://x.com/0xzak/status/1955265807807545763?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/0xzak/status/1955265807807545763?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+    "content": "Looks like some user got a bad plugin and it read his env file and drained his wallet a few days later. Another case to be made to only develop on machines with no sensitive machine access.\n\n<a href=\"https://x.com/0xzak/status/1955265807807545763?s=46&t=gbXFVtdeAqulPOfK2uLh7g\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/0xzak/status/1955265807807545763?s=46&t=gbXFVtdeAqulPOfK2uLh7g</a>\n",
+    "filename": "Malicious Cursor MCP Drains Crypto.md",
+    "slug": "malicious-cursor-mcp-drains-crypto-20250812",
+    "created_at": "2025-08-12T11:40:05.110571",
+    "updated_at": "2025-08-12T11:40:05.110571"
+  },
+  "last_updated": "2025-08-12T11:40:05.126763"
+}
